@@ -1,0 +1,28 @@
+/*CSS file for Tutorial.jsx*/
+
+.tutorial {
+    padding: 2% 0 5% 2%;
+    background-color: #f8f8f8;
+}
+
+.Laravel {
+	color: red;
+}
+
+.React {
+	color: blue;
+}
+
+.title {
+    padding: 0 0 5% 0;
+}
+
+.tutorial-text {
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+h1, h2 {
+    text-align: center;
+}

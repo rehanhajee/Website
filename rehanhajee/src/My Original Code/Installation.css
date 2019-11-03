@@ -1,0 +1,33 @@
+/*CSS file for Installation.jsx*/
+
+.image {
+	width: 15vw;
+	margin: auto;
+}
+
+.installation-text {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.installation {
+    padding: 2% 0 5% 2%;
+    background-color: #f8f8f8;
+}
+
+.Laravel {
+	color: red;
+}
+
+.React {
+	color: blue;
+}
+
+.title {
+    padding: 0 0 5% 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+

@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route, Switch} from "react-router-dom"; /*package used to route to terms page and define the sub link of each component: https://www.npmjs.com/package/react-router-dom */
+import {BrowserRouter, Route, Switch} from "react-router-dom"; 
+/*package used to route to terms page and define the sub link of each component: https://www.npmjs.com/package/react-router-dom */
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Installation from './components/Installation';
@@ -28,6 +30,7 @@ class App extends Component {
 							<Route path="/Credits" component={Credits}/>
 							<Route path="" component={Error}/>
 						</Switch>
+						<Footer />
 					</div>
 				</BrowserRouter>
 				

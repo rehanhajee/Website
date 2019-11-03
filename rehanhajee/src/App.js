@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom"; 
-/*package used to route to terms page and define the sub link of each component: https://www.npmjs.com/package/react-router-dom */
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -17,12 +16,13 @@ import './App.css';
 class App extends Component {
 	render() {
 		return (
-			<div>
+			<main>
 				<BrowserRouter>
-					<div>
+					<article>
 						<Navbar />
 						<Switch className="App">
 							<Route exact path="/" component={Home}/>
+							<Route exact path="/Home" component={Home}/>
 							<Route path="/About" component={About}/>
 							<Route path="/Installation" component={Installation}/>
 							<Route path="/Tutorial" component={Tutorial}/>
@@ -31,10 +31,10 @@ class App extends Component {
 							<Route path="" component={Error}/>
 						</Switch>
 						<Footer />
-					</div>
+					</article>
 				</BrowserRouter>
 				
-			</div>
+			</main>
 		);
 	}
 }

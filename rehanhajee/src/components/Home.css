@@ -1,0 +1,41 @@
+/*CSS for Home.jsx*/
+
+.home {
+    padding: 5% 0 5% 2%;
+    background-color: #f8f8f8;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.home-text {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.profilePic {
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+	width:30vw;
+}
+
+.centre {
+	padding-top: 0%;
+	text-align: center;
+	padding-bottom: 0%;
+}
+
+.left {
+	text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    font-size: 18px;
+    display: inline-block;
+}

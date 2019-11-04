@@ -117,33 +117,97 @@ export default class Home extends Component {
 												</li>
 												<br /><br />
 												<h3>Royal Canadian Air Cadets</h3>
+												<h4><i>Trenton Cadet Training Centre</i></h4>
 												<li>
-													<i>Trenton Cadet Training Centre</i>
-													<br />
 													<i>General Training Sergeant</i> • July 2017 - August 2017
 													<br />
 													<ul>
 														<li>• Was responsible for acting as necessary to protect the health, welfare and safety of all General Training course cadets</li>
+														<br />
 														<li>• Supervised cadets during all scheduled activities and participate when appropriate</li>
+														<br />
 														<li>• Submitted recommendations for end of course Training Reports</li>
+														<br />
 														<li>• Instructed cadets on cadet-related lessons, such as Aviation, Drill, Citizenship, and Aerodrome Operations</li>
+														<br />
 													</ul>
 												</li>
 												<br /><br />
+												<h4><i>Canadore Cadet Training Centre</i></h4>
 												<li>
-													<i>Canadore Cadet Training Centre</i>
-													<br />
 													<i>Flight NCO - Advanced Aviation Technology Course</i> • July 2016 - August 2016
 													<br />
 													<ul>
 														<li>• Assisted and supervised course cadets and maintaining a log stating problems and solutions</li>
+														<br />
 														<li>• Assisted in supervising and instructing the Flag Party</li>
+														<br />
 														<li>• Assisted in the development of cadet course reports</li>
+														<br />
 														<li>• Submitted recommendations for end of summer Training Reports</li>
+													</ul>
+												</li>
+												
+												<br /><br />
+												<h3>Metroland</h3>
+												<li>
+													<i>Newspaper Carrier</i> • November 2013 - April 2014
+													<br />
+													<ul>
+														<li>• Delivered newspapers and flyers in my neighbourhood</li>
+													</ul>
+													
+												</li>
+											</ul>
+										</section>
+										<hr />
+										<section>
+											<header><h2 className="left"><u>Volunteer Experience</u></h2></header>
+											<ul>
+												<li>
+													<h3>Ryerson University</h3>
+													<i>Science Orientation Operations Team Member</i> • August 2018
+													<ul>
+														<li>• Organized an activity for the Science Orientation 2018</li>
+														<br />
+														<li>• Assistted other members when required</li>
 													</ul>
 												</li>
 												<br /><br />
 												<li>
+													<h3>Ontario Council for Technological Education</h3>
+													<i>Co-editor</i> • March 2016 - May 2016
+													<ul>
+														<li>• Edited a video in a 60-part safety video series for the province of Ontario</li>
+														<br />
+														<li>• Safety demonstrator on-camera for three videos</li>
+													</ul>
+												</li>
+												<br /><br />
+												<li>
+													<h3>Ismaili Centre Toronto Audio/Visual Team</h3>
+													<i>Member</i> • September 2014 - Present
+													<ul>
+														<li>• Set up and wrap up microphones, projectors, speakers, etc. for events</li>
+														<br />
+														<li>• Arrange the equipment neatly after use</li>
+														<br />
+														<li>• Operate the sound system for the entire building</li>
+														<br />
+														<li>• Troubleshoot any technical issues on the spot</li>
+													</ul>
+												</li>
+												<br /><br />
+												<li>
+													<h3>Ismaili Safety Team</h3>
+													<i>First Aid Member</i> • December 2013 - Present
+													<ul>
+														<li>• Provide First Aid at sporting events and community events for up to 20 000 people.</li>
+													</ul>
+												</li>
+												<br /><br />
+												<li>
+													<h3>Royal Canadian Air Cadets</h3>
 													<i>166 Bulldog Royal Canadian Air Cadet Squadron</i>
 													<br />
 													<i>Warrant Officer Second Class, Deputy Squadron Commander, Administration Warrant Officer</i> • January 2011 - June 2017
@@ -156,55 +220,76 @@ export default class Home extends Component {
 														<li>• Created documents from scratch (e.g. "Call out" spreadsheet, a chart for tagging (fundraising) with locations, program for the final parade)</li>
 														<br />
 														<li>• Instructed lessons on Citizenship, Drill, Leadership, and Survival</li>
+														<br />
 														<li>• Coached the Flag Party, as the Flag Party Commander, to ensure drill is sharp and in time (member from 2012-2016, commander from 2015-2016)</li>
+														<br />
 														<li>• Was a member of the Squadron Drill Without Arms Team (2012-2016), which is an elite group of 16 cadets who rehearse regularly to put together a silent drill routine for competitions</li>
 													</ul>
 												</li>
 												<br /><br />
-												<h3>Metroland</h3>
 												<li>
-													<i>Newspaper Carrier</i> • November 2013 - April 2014
-													<br />
+													<h3>Willowdale Jamatkhana Audio/Visual Team</h3>
+													<i>Lead</i> • July 2007 - Present
 													<ul>
-														<li>• Delivered newspapers and flyers in my neighbourhood</li>
-													</ul>
-												</li>
-											</ul>
-										</section>
-										<hr />
-										<section>
-											<header><h2 className="left"><u>Volunteer Experience</u></h2></header>
-											<ul>
-												<li>
-													<h3>Ryerson University</h3>
-													<i>Science Orientation Operations Team Member </i>• August 2018
-													<ul>
-														<li>• Organized an activity for the Science Orientation 2018</li>
-														<li>• Assistted other members when required</li>
+														<li>• Ensure set up and wrap up of microphones, projectors, speakers, etc. for events, arrange equipment during events (e.g. New Years event for over 1000 people)</li>
+														<br />
+														<li>• Arrange the equipment neatly after use</li>
+														<br />
+														<li>• Operate the sound system for the entire building</li>
+														<br />
+														<li>• Troubleshoot any technical issues on the spot</li>
 													</ul>
 												</li>
 												<br /><br />
 												<li>
-													
-													Put your second most recent volunteer position here.
-													<br /><i>Your position • start Month, Year - end Month, Year</i>
+													<h3>Ismaili Volunteer Corps</h3>
+													<i>Member</i> • November 2006 - Present
+													<ul>
+														<li>• Assist in allocating and completing daily operational tasks for the Ismaili community</li>
+														<br />
+														<li>• Helping the sick, elderly, and disabled members of the Toronto Ismaili community</li>
+														<br />
+														<li>• Operate the sound system for the entire building</li>
+													</ul>
 												</li>
 											</ul>
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Awards</u></h2></header>
+											<header><h2 className="left"><u>Extra Curricular Activities</u></h2></header>
 											<ul>
 												<li>
-													Put your most recent award here.
-													<br /><i>Month recieved, Year recieved</i>
-													<br /><br />
-													Put your second most recent award here.
-													<br /><i> Month recieved, Year recieved</i>
-													<br /><br />
-													Put all other awards here.
-													<br /><i> Month recieved, Year recieved</i>
+													<h3>Don Mills CI Stage Crew</h3>
+													<i>Co-President</i> • November 2013 - June 2016
+													<ul>
+														<li>• Student-run organization which assistted in most Audio/Visual components for school events</li>
+														<br />
+														<li>• Made sure students are excused if they were planning on being absent for a class to assist with an event</li>
+														<br />
+														<li>• Trained new members with the equipment</li>
+													</ul>
 												</li>
+											</ul>
+										</section>
+										<hr />
+										<section>
+											<header><h2 className="left"><u>Awards and Qualifcations</u></h2></header>
+											<ul>
+												<li>Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
+												<br />
+												<li>Ontario Volunteer Service Award – Youth (2017)</li>
+												<br />
+												<li>First Aid level 'C' with AED training (2017)</li>
+												<br />
+												<li>Restricted Operator’s Certificate – Aeronautical (2015)</li>
+												<br />
+												<li>Workplace Hazardous Materials Information System (WHMIS) for Workers (2015)</li>
+												<br />
+												<li>Community Service Honours, Level 2 Gold, Ismaili Students Total Achievement and Recognition (ISTAR) Awards (2015)</li>
+												<br />
+												<li>Royal Canadian Air Cadet Service Medal for completing four continuous years with the Royal Canadian Air Cadets (2015), and two bars for completing two additional years (2016, 2017)</li>
+												<br />
+												<li>Duke of Edinburgh Bronze Award for involvement in sports, music and community service (2013)</li>
 											</ul>
 										</section>
 									</div>

@@ -20,7 +20,13 @@ a.navbar-brand {
 .menuItem {
 	color:#00a284;
 	font-size: 20px;
-	width: 12%;text-align:center;
+	width: 12%;
+	text-align:center;
+}
+
+.menuItem:hover {
+	background-color:#45A694;
+	color:#F3B571;
 }
 
 .header {
@@ -29,7 +35,7 @@ a.navbar-brand {
 	padding:3px;
 	position:fixed;
 	top:0;
-	display:block;
+	
 }
 
 nav>a {

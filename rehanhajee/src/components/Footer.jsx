@@ -4,7 +4,7 @@ import './Footer.css';
 export default class Footer extends Component {
 	render() {
 		return (
-			<footer>© {this.getYear()}, Rehan Hajee</footer>
+			<footer className="bg-dark">© {this.getYear()}, Rehan Hajee</footer>
 		);
 	}
 	

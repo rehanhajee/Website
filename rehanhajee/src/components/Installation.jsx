@@ -16,10 +16,9 @@ class Installation extends Component {
 				</Helmet>
 				<Container>
 					<Row className="installation">
-						<h1 className="underline"><br />Installation</h1>
+						<h1><br /><u>Installation</u></h1>
 						<Col md={11} className="installation-text">
 							<p >
-								<Image className="image" src="https://images.ecosia.org/2bfsXq1NKcr2qA7QKMzPl3XWm-c=/0x390/smart/https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fmandatory-safety-signs%2F574%2FISO_7010_M002-512.png" />
 								<p>
 								This site was created using Google Cloud Platform. To learn more about it, you can read about it <a href="https://cloud.google.com/">here</a>.
 								<br /><br />

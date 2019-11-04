@@ -1,7 +1,7 @@
 /*CSS file for Conclusion.jsx*/
 
 .conclusion {
-    padding: 2% 0 5% 2%;
+    padding: 5% 2% 5% 2%;
     background-color: #f8f8f8;
 }
 
@@ -19,5 +19,5 @@
 }
 
 h1, h2 {
-    text-align: centre;
+    text-align: center;
 }

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom"; 
-
 import CustomNavbar from './components/CustomNavbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -10,6 +9,7 @@ import Tutorial from './components/Tutorial';
 import Conclusion from './components/Conclusion';
 import Credits from './components/Credits';
 import Error from './components/Error';
+import Movies from './components/Movies';
 
 import './App.css';
 
@@ -28,6 +28,7 @@ class App extends Component {
 							<Route path="/Tutorial" component={Tutorial}/>
 							<Route path="/Conclusion" component={Conclusion}/>
 							<Route path="/Credits" component={Credits}/>
+							<Route path="/Movies" component={Movies}/>
 							<Route path="" component={Error}/>
 						</Switch>
 						<Footer />

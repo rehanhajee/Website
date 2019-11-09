@@ -26,7 +26,7 @@ export default class Home extends Component {
 							</section>
 						</article>
 						<article>
-							<Row >
+							<Row>
 								<Col md={10}>
 									<div className="home-text">
 										<section>

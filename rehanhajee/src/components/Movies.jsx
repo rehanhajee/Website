@@ -62,17 +62,6 @@ export default class Movies extends Component {
 							
 						</form>
 						
-						<div rt-repeat="x in this.state.myData">
-							<span>hi</span>
-						</div>
-						
-						<ul>
-						  <rt-virtual rt-repeat="n in [1,2,3]">
-							<li>{n}</li>
-							<li>{n*2}</li>
-						  </rt-virtual>
-						</ul>
-						
 						
 						<table id="myTable" >
 							<thead>

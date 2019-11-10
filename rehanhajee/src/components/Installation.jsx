@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Image} from 'react-bootstrap'; 
+import {Container, Row, Col} from 'react-bootstrap'; 
 import {Helmet} from 'react-helmet';
 import {goToTop} from 'react-scrollable-anchor';
 import './Installation.css';

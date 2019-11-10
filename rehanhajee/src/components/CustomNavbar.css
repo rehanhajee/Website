@@ -2,15 +2,13 @@
 
 .nav {
     transition: top 0.2s ease-in-out;
-    width: 100%;
+    width: 100%;	
 }
 
 .navbar {
 	display: inline;
-}
-
-.navbar-dark .navbar-brand {
-	color:#2897ff;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .navbar-brand {
@@ -20,6 +18,14 @@
 	text-shadow:4px 2px 10px #300CE8;
 	margin: 0;
 	padding-left:5px;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus {
+	color:#2897ff;
+}
+
+.navbar-dark .navbar-brand:hover {
+	color: white;
 }
 
 .menuItem {

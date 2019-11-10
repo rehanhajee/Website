@@ -1,4 +1,5 @@
-/*CSS for Home.jsx*/
+/*CSS for Projects.jsx*/
+@charset "utf-8";
 
 h1 {
     font-size: 36px;
@@ -21,7 +22,7 @@ li {
 	padding-bottom: 0%;
 }
 
-.home {
+.projects {
     padding: 5% 2% 5% 2%;
     background-color: #f8f8f8;
 	width: 80%;
@@ -29,7 +30,7 @@ li {
 	margin-right:auto;
 }
 
-.home-text {
+.projects-text {
     font-size: 22px;
     text-align: justify;
 }
@@ -46,12 +47,12 @@ li {
 }
 
 @media (min-width: 500px) {
-	.home {
+	.projects {
 		width: 95%;
 		padding-left: 1%;
 	}
 	
-	.home-text {
+	.projects-text {
 		text-align: left;
 	}
 	
@@ -61,7 +62,7 @@ li {
 }
 
 @media (min-width: 576px) {
-	.home {
+	.projects {
 		width: 80%;
 		padding: 5% 2% 5% 2%;
 	}
@@ -75,7 +76,7 @@ li {
 }
 
 @media (min-width: 1024px) {
-	.home-text {
+	.projects-text {
 		text-align: justify;
 	}
 }

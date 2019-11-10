@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap'; 
 import {Helmet} from 'react-helmet';
 import {goToTop} from 'react-scrollable-anchor';
+
 import './Home.css';
 
-export default class Home extends Component {
+class Home extends Component {
 	componentWillMount() {
         goToTop();
     }
@@ -27,7 +28,7 @@ export default class Home extends Component {
 						</article>
 						<article>
 							<Row>
-								<Col md={10}>
+								<Col md={12}>
 									<div className="home-text">
 										<section>
 											<header><h2 className="left"><u>Skills</u></h2></header>
@@ -302,3 +303,5 @@ export default class Home extends Component {
         );
 	}
 }
+
+export default Home;

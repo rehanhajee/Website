@@ -30,8 +30,9 @@ class Home extends Component {
 							<Row>
 								<Col md={12}>
 									<div className="home-text">
+										<hr />
 										<section>
-											<header><h2 className="left"><u>Skills</u></h2></header>
+											<header><h2 className="heading"><u>Skills</u></h2></header>
 											<ul>
 												<li>• Highly proficent in Java Programming</li>
 												<br />
@@ -47,7 +48,7 @@ class Home extends Component {
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Education</u></h2></header>
+											<header><h2 className="heading"><u>Education</u></h2></header>
 											<ul>
 												<li>
 													<h3>Ryerson University</h3>
@@ -81,7 +82,7 @@ class Home extends Component {
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Work Experience</u></h2></header>
+											<header><h2 className="heading"><u>Work Experience</u></h2></header>
 											<ul>
 												<h3>Department of National Defence</h3>
 												<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
@@ -163,7 +164,7 @@ class Home extends Component {
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Volunteer Experience</u></h2></header>
+											<header><h2 className="heading"><u>Volunteer Experience</u></h2></header>
 											<ul>
 												<li>
 													<h3>Ryerson University</h3>
@@ -257,7 +258,7 @@ class Home extends Component {
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Extra Curricular Activities</u></h2></header>
+											<header><h2 className="heading"><u>Extra Curricular Activities</u></h2></header>
 											<ul>
 												<li>
 													<h3>Don Mills CI Stage Crew</h3>
@@ -274,7 +275,7 @@ class Home extends Component {
 										</section>
 										<hr />
 										<section>
-											<header><h2 className="left"><u>Awards and Qualifcations</u></h2></header>
+											<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 											<ul>
 												<li>Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
 												<br />

@@ -1,12 +1,12 @@
+/*CSS for App.js*/
+
 .background {
-	/*background-image:linear-gradient(to bottom, #fb503b, #61dafb);*/
 	background-color: gray;
 }
 
 a {
 	color:#00a284;
 	font-size: 20px;
-	width: 12%;
 	text-decoration:none;
 }
 
@@ -36,5 +36,5 @@ a {
 }
 
 .error {
-	align: center;
+	text-align: center;
 }

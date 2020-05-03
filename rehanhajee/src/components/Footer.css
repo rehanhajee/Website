@@ -1,3 +1,9 @@
+/*CSS file for Footer.jsx*/
+
 footer {
 	color: white;
+}
+
+body {
+	font-size: 1.3rem;
 }

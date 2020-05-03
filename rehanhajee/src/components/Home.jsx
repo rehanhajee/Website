@@ -9,6 +9,7 @@ class Home extends Component {
 	componentWillMount() {
         goToTop();
     }
+	
     render() {
         return (
 			<div className="background">
@@ -21,9 +22,9 @@ class Home extends Component {
 							<section>
 								<br /><br />
 								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
-								<h1><br /><u>Hi, I'm Rehan Hajee!</u></h1>
+								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
 								<br />
-								<div className="centre">Experienced Officer with a demonstrated history of working in the military industry. Skilled in Java, HTML, Unix, Adobe Photoshop, and Adobe Premiere Pro. Strong professional with a Bachelor of Science - BS focused in Computer Science from Ryerson University.</div>
+								<div className="centre">I am a CIC Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - BS focused in Computer Science from Ryerson University.</div>
 							</section>
 						</article>
 						<article>
@@ -43,7 +44,6 @@ class Home extends Component {
 												<li>• Proficent in Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
 												<br />
 												<li>• Proficient in Windows, Mac and Linux operating systems</li>
-												
 											</ul>
 										</section>
 										<hr />
@@ -53,7 +53,7 @@ class Home extends Component {
 												<li>
 													<h3>Ryerson University</h3>
 													<i>Bachelor of Science</i>
-													<br /><i>Major in Computer Science</i> • September 2016 - April 2020 (Expected)
+													<br /><i>Major in Computer Science</i> • September 2016 - June 2020 (Expected)
 													<ul>
 														<li>
 															<i>Academics:</i> Computer science courses include Introduction to C and UNIX, Data Structures, Social Issues, Ethics and Professionalism, Computer Security, Web Systems Development, Database Systems

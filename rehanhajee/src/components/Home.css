@@ -5,6 +5,7 @@ h1 {
 	text-align: center;
 }
 
+
 .heading {
 	text-align: left;
 }
@@ -42,7 +43,7 @@ li {
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:50%;
-	width:25vw;
+	width:25rem;
 }
 
 @media only screen {

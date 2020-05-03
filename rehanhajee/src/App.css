@@ -1,3 +1,8 @@
+.background {
+	/*background-image:linear-gradient(to bottom, #fb503b, #61dafb);*/
+	background-color: gray;
+}
+
 a {
 	color:#00a284;
 	font-size: 20px;
@@ -22,6 +27,12 @@ a {
 
 .App-link {
   color: #61dafb;
+}
+
+.centre {
+	padding-top: 0%;
+	text-align: center;
+	padding-bottom: 0%;
 }
 
 .error {

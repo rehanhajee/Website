@@ -1,3 +1,5 @@
+/*CSS file for CustomNavbar.jsx*/
+
 @charset "utf-8";
 
 .nav {
@@ -12,7 +14,9 @@
 }
 
 .navbar-brand {
+	display: block;
 	width: auto;
+	text-align: left;
     font-size: 2rem;
 	color:#300CE8;
 	text-shadow:4px 2px 10px #300CE8;
@@ -29,6 +33,7 @@
 }
 
 .menuItem {
+	display: inline;
 	color:#00a284;
 	font-size: 20px;
 	text-align: center;
@@ -53,15 +58,26 @@ nav>a {
 
 /*responsive styling*/
 @media (min-width:500px) {
+	
+	.navbar-brand {
+		text-align: center;
+	}
+	
 	.menuItem {
 		margin-left: 0;
 		margin-right: 20%;
 	}
+	
 }
 
 @media (min-width: 576px) {
+	
 	.menuItem {
-		margin-left: 10rem;
+		margin-left: 5rem;
 		margin-right: 5rem;
+	}
+	
+	.navbar-brand {
+		text-align: left;
 	}
 }

@@ -8,7 +8,7 @@ import './Projects.css';
 class Projects extends Component {
 	componentWillMount() {
         goToTop();
-    }
+	}
 	
     render() {
         return (
@@ -22,6 +22,7 @@ class Projects extends Component {
 							<Row>
 								<Col md={12}>
 									<div className="projects-text">
+										<br /><br />
 										<header><h1 className="left"><u>Projects</u></h1></header>
 										
 									</div>

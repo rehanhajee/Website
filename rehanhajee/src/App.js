@@ -5,9 +5,6 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Tutorial from './components/Tutorial';
-import Conclusion from './components/Conclusion';
-import Credits from './components/Credits';
 import Error from './components/Error';
 
 import './App.css';
@@ -24,9 +21,6 @@ class App extends Component {
 							<Route exact path="/Home" component={Home}/>
 							<Route path="/About" component={About}/>
 							<Route path="/Projects" component={Projects}/>
-							<Route path="/Tutorial" component={Tutorial}/>
-							<Route path="/Conclusion" component={Conclusion}/>
-							<Route path="/Credits" component={Credits}/>
 							<Route path="" component={Error}/>
 						</Switch>
 						<Footer />

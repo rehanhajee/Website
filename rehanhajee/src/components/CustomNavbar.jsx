@@ -1,21 +1,22 @@
 import React, {Component} from 'react';
-import {Navbar, Row, Col} from 'react-bootstrap'; 
-import {NavLink} from 'react-router-dom';
+import {Navbar, Nav} from 'react-bootstrap'; 
 
 import './CustomNavbar.css';
 
 class CustomNavbar extends Component {
 	render() {
 		return (
-			<Row className="show-Container header">
-				<Col md={12} className="Menu-items">
-					<Navbar className="navbar fixed-top bg-dark navbar-dark">
-							<NavLink to="/" className="navbar-brand">Rehan Hajee</NavLink>
-							<NavLink to="/Projects" className="menuItem">Projects</NavLink>
-							<NavLink to="/" className="menuItem">Contact Me</NavLink>
-					</Navbar>
-				</Col>
-			</Row>
+			<Navbar bg="dark" variant="dark" expand="lg" className="navbar fixed-top navbar-dark">
+				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				<Navbar.Brand href="/">Rehan Hajee</Navbar.Brand>
+				<Navbar.Collapse id="basic-navbar-nav">
+					<Nav className="mr-auto">
+					<Nav.Link href="/" className="menuItem">Home</Nav.Link>
+						<Nav.Link href="/Projects" className="menuItem">Projects</Nav.Link>
+						<Nav.Link href="/" className="menuItem">Contact Me</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		);
 	}
 }

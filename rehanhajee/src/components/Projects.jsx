@@ -19,15 +19,10 @@ class Projects extends Component {
 				<Container className="projects">
 					<main>
 						<article>
-							<Row>
-								<Col md={12}>
-									<div className="projects-text">
-										<br /><br />
-										<header><h1 className="left"><u>Projects</u></h1></header>
-										
-									</div>
-								</Col>
-							</Row>
+							<div className="projects-text">
+								<header><h1 className="left"><u>Projects</u></h1></header>
+								
+							</div>
 						</article>
 					</main>
 				</Container>

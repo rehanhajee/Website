@@ -2,24 +2,26 @@ import React, {Component} from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap'; /*react-bootstrap is used for better formatting and responsiveness of website: https://react-bootstrap.github.io/ */
 import {Helmet} from 'react-helmet';
 
-class Home extends Component {
+class Error extends Component {
     render() {
         return (
 			<div>
 				<Helmet>
-					<title>Error 404 - CPS530 Final Project</title>
+					<title>Error 404 - Rehan Hajee</title>
 				</Helmet>
-				<Container>
-					<Row>
-						<Col md={2} />
-						<Col md={10}>
-							<p><Image src={'http://www.magnt.com/wp-content/uploads/2016/01/404image.png'} responsive className="error"/></p>
-						</Col>
-					</Row>
+				<Container className="error">
+					<main>
+						<article>
+							<section>
+								<br /><br />
+								<h1>404 - PAGE NOT FOUND</h1>
+							</section>
+						</article>
+					</main>
 				</Container>
 			</div>
         );
     }
 }
 
-export default Home;
+export default Error;

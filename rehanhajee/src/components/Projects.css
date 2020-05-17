@@ -14,7 +14,6 @@ h3, h4 {
 li {
     font-size: 18px;
     display: inline-block;
-	line-height: 1.6;
 }
 
 .centre {
@@ -33,17 +32,22 @@ li {
 
 .projects-text {
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
-@media (min-width: 500px) {
+
+@media only screen {
 	.projects {
 		width: 95%;
-		padding-left: 1%;
+		padding-left: 1.5%;
 	}
 	
 	.projects-text {
 		text-align: left;
+	}
+	
+	.heading {
+		text-align: center;
 	}
 	
 	li, ul>h3, ul h4 {
@@ -54,11 +58,11 @@ li {
 @media (min-width: 500px) {
 	.projects {
 		width: 95%;
-		padding-left: 1%
+		padding-left: 1%;
 	}
 	
 	.projects-text {
-		text-align:left;
+		text-align: left;
 	}
 	
 	li, ul>h3, ul h4 {
@@ -86,6 +90,6 @@ li {
 
 @media (min-width: 1024px) {
 	.projects-text {
-		text-align: justify;
+		text-align: left;
 	}
 }

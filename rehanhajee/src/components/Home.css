@@ -1,10 +1,11 @@
 /*CSS for Home.jsx*/
 
+@charset "utf-8";
+
 h1 {
     font-size: 36px;
 	text-align: center;
 }
-
 
 .heading {
 	text-align: left;
@@ -17,7 +18,10 @@ h3, h4 {
 li {
     font-size: 18px;
     display: inline-block;
-	line-height: 1.6;
+}
+
+li>a {
+	font-weight: bold;
 }
 
 .centre {
@@ -36,17 +40,18 @@ li {
 
 .home-text {
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .profilePic {
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:50%;
-	width: 50%;
+	width: 40%;
 }
 
 @media only screen {
+	
 	.home {
 		width: 95%;
 		padding-left: 1.5%;
@@ -65,7 +70,7 @@ li {
 	}
 
 	.profilePic {
-		width: 50%;
+		width: 30%;
 	}
 }
 
@@ -104,6 +109,6 @@ li {
 
 @media (min-width: 1024px) {
 	.home-text {
-		text-align: justify;
+		text-align: left;
 	}
 }

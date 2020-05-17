@@ -6,7 +6,7 @@ import {goToTop} from 'react-scrollable-anchor';
 import './Home.css';
 
 class Home extends Component {
-	componentWillMount() {
+	componentDidMount() {
         goToTop();
     }
 	
@@ -18,19 +18,19 @@ class Home extends Component {
 				</Helmet>
 				<Container className="home">
 					<main>
-						<article>
-							<section>
+						<section>
+							<article>
 								<br /><br />
 								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
 								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
 								<br />
 								<div className="centre">I am a CIC Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - BS focused in Computer Science from Ryerson University.</div>
-							</section>
-						</article>
-						<article>
+							</article>
+						</section>
+						<section>
 							<div className="home-text">
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Skills</u></h2></header>
 									<ul>
 										<li>• Highly proficent in Java programming</li>
@@ -43,22 +43,22 @@ class Home extends Component {
 										<br />
 										<li>• Frameworks/Technologies: Git, Angular.JS, Bootstrap, MySQL, React</li>
 									</ul>
-								</section>
+								</article>
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Education</u></h2></header>
 									<ul>
 										<li>
 											<h3>Ryerson University</h3>
-											<i>Bachelor of Science</i>
+											<i>Bachelor of Science (Honours)</i>
 											<br /><i>Major in Computer Science</i> • September 2016 - April 2020
 											<ul>
 												<li>
-													<i>Academics:</i> Computer science courses include Introduction to C and UNIX, Data Structures, Social Issues, Ethics and Professionalism, Computer Security, Web Systems Development, Database Systems
+													<i>Relevant Courses:</i> Computer science courses include: Introduction to C and UNIX, Data Structures, Web Systems Development, Database Systems I
 												</li>
 												<br /><br />
 												<li>
-													<i>Projects:</i> Created a website with Laravel and React showing installation steps for these frameworks, created a Java program which displayed data from a personally created SQL database, created a daily appointment calendar in Java, which includes a partial contact management system
+													<i>Projects:</i> Can be found <a href="/Projects">here</a>.
 												</li>
 												<br /><br />
 												<li>
@@ -69,7 +69,7 @@ class Home extends Component {
 										<br /><br />
 										<li>
 											<h3>Don Mills Collegiate Institute</h3>
-											<i>Gifted Intensive Program, Ontario Secondary School Diploma</i> • September 2012 - June 2016
+											<i>Ontario Secondary School Diploma, Gifted Intensive Program</i> • September 2012 - June 2016
 											<ul>
 												<li><i>Honors:</i> Ontario Scholar</li>
 												<br /><br />
@@ -77,9 +77,9 @@ class Home extends Component {
 											</ul>
 										</li>
 									</ul>
-								</section>
+								</article>
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Work Experience</u></h2></header>
 									<ul>
 										<h3>Department of National Defence</h3>
@@ -159,9 +159,9 @@ class Home extends Component {
 											
 										</li>
 									</ul>
-								</section>
+								</article>
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Volunteer Experience</u></h2></header>
 									<ul>
 										<li>
@@ -253,11 +253,29 @@ class Home extends Component {
 											</ul>
 										</li>
 									</ul>
-								</section>
+								</article>
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Extra Curricular Activities</u></h2></header>
 									<ul>
+										<li>
+											<h3>Ryerson Ismaili Muslim Student Association (RIMSA)</h3>
+											<i>President</i> • June 2018 - June 2019
+											<ul>
+												<li>• Liaise between ISA members and executive members</li>
+												<br />
+												<li>• Secure funding for large-scale events through Ryerson Student Union and private donors</li>
+											</ul>
+											<i>Treasurer</i> • April 2017 – June 2018, September 2019 – June 2020
+											<ul>
+												<li>• Liaise between ISA members and executive members</li>
+												<br />
+												<li>• Manage funds used and received by the ISA</li>
+												<br />
+												<li>• Budget and ensure that events planned and implemented are within the financial means of the club</li>
+											</ul>
+										</li>
+										<br /><br />
 										<li>
 											<h3>Don Mills CI Stage Crew</h3>
 											<i>Co-President</i> • November 2013 - June 2016
@@ -270,9 +288,9 @@ class Home extends Component {
 											</ul>
 										</li>
 									</ul>
-								</section>
+								</article>
 								<hr />
-								<section>
+								<article>
 									<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 									<ul>
 										<li>• Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
@@ -291,10 +309,10 @@ class Home extends Component {
 										<br />
 										<li>• Duke of Edinburgh Bronze Award for involvement in sports, music and community service (2013)</li>
 									</ul>
-								</section>
+								</article>
 							</div>
 								
-						</article>
+						</section>
 					</main>
 				</Container>
 			</div>

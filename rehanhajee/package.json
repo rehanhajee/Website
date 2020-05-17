@@ -3,12 +3,13 @@
   "version": "2.5.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-bootstrap": "^1.0.0-beta.14",
-    "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "6.0.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "^3.2.0",
     "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {

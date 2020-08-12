@@ -11,6 +11,10 @@ class Projects extends Component {
 	}
 	
     render() {
+		function iframe(link, title) {
+			return <article><iframe src={link} title={title} width="100%" height="400"></iframe></article>;
+		}
+
         return (
 			<div className="background">
 				<Helmet>
@@ -22,11 +26,19 @@ class Projects extends Component {
 							<br />
 							<header><h1><u>Projects</u></h1></header>
 							
+							
+
 							<article>
-							Created a website with Laravel and React showing installation steps for these frameworks, created a Java program which displayed data from a personally created SQL database, created a daily appointment calendar in Java, which includes a partial contact management system
+							
 							</article>
 							<article>
 								
+							</article>
+
+							{iframe("https://www.cs.ryerson.ca/~r2hajee/Lab2/index.html", "Lab 2")}
+
+							<article>
+							Created a website with Laravel and React showing installation steps for these frameworks, created a Java program which displayed data from a personally created SQL database, created a daily appointment calendar in Java, which includes a partial contact management system
 							</article>
 						</section>
 					</main>

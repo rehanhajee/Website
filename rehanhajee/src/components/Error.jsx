@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Image} from 'react-bootstrap'; /*react-bootstrap is used for better formatting and responsiveness of website: https://react-bootstrap.github.io/ */
+import {Container} from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
 
 class Error extends Component {
@@ -11,12 +11,16 @@ class Error extends Component {
 				</Helmet>
 				<Container className="error">
 					<main>
-						<article>
-							<section>
+						<section>
+							<article className="error-text">
 								<br /><br />
-								<h1>404 - PAGE NOT FOUND</h1>
-							</section>
-						</article>
+								<h1>404 - Not Found</h1>
+								<br /><br />
+								Ensure you have entered the correct link and try again later.
+								<br /><br /><br /><br />
+							</article>
+							
+						</section>
 					</main>
 				</Container>
 			</div>

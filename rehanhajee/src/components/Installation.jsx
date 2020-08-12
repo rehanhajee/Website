@@ -5,7 +5,7 @@ import {goToTop} from 'react-scrollable-anchor';
 import './Installation.css';
 
 class Installation extends Component {
-	componentWillMount() {
+	componentDidMount() {
         goToTop();
     }
 	render() {

@@ -13,7 +13,7 @@ class CustomNavbar extends Component {
 					<Nav className="mr-auto">
 						<Nav.Link href="/" className="menuItem">Home</Nav.Link>
 						<Nav.Link href="/Projects" className="menuItem">Projects</Nav.Link>
-						<Nav.Link href="#" className="menuItem">Contact Me</Nav.Link>
+						<Nav.Link href="#" className="menuItem"></Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>

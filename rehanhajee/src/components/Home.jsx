@@ -24,7 +24,7 @@ class Home extends Component {
 								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
 								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
 								<br />
-								<div className="centre">I am a CIC Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - BS focused in Computer Science from Ryerson University.</div>
+								<div className="centre">CIC Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science (Honours) (BSc (Hons)) focused in Computer Science from Ryerson University.</div>
 							</article>
 						</section>
 						<section>
@@ -51,10 +51,10 @@ class Home extends Component {
 										<li>
 											<h3>Ryerson University</h3>
 											<i>Bachelor of Science (Honours)</i>
-											<br /><i>Major in Computer Science</i> • September 2016 - April 2020
+											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
 											<ul>
 												<li>
-													<i>Relevant Courses:</i> Computer science courses include: Introduction to C and UNIX, Data Structures, Web Systems Development, Database Systems I
+													<i>Relevant Courses:</i> Computer science courses include: Data Structures, Web Systems Development, Database Systems I, Introduction to C and UNIX
 												</li>
 												<br /><br />
 												<li>
@@ -62,7 +62,7 @@ class Home extends Component {
 												</li>
 												<br /><br />
 												<li>
-													<i>Awards:</i> Entrance Scholarship
+													<i>Awards:</i> Dean's List, Entrance Scholarship
 												</li>
 											</ul>
 										</li>
@@ -82,7 +82,7 @@ class Home extends Component {
 								<article>
 									<header><h2 className="heading"><u>Work Experience</u></h2></header>
 									<ul>
-										<h3>Department of National Defence</h3>
+										<h3>Canadian Armed Forces</h3>
 										<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
 										<li>
 											<i>Assistant Training Officer </i> • August 2019 - Present
@@ -93,6 +93,7 @@ class Home extends Component {
 											</ul>
 										</li>
 										<br /><br />
+										<h3>Department of National Defence</h3>
 										<h4><i>Trenton Cadet Training Centre</i></h4>
 										<li>
 											<i>Drill and Ceremonial Course Administration Officer</i> • June 2019 - August 2019

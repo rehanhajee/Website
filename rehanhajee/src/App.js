@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import CustomNavbar from './components/CustomNavbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import About from './components/About';
 import Projects from './components/Projects';
 import Error from './components/Error';
 
@@ -17,7 +18,7 @@ class App extends Component {
 						<CustomNavbar />
 						<Switch className="App">
 							<Route exact path="/" component={Home}/>
-							<Route exact path="/Home" component={Home}/>
+							<Route exact path="/About" component={About}/>
 							<Route path="/Projects" component={Projects}/>
 							
 							<Route path="" component={Error}/>

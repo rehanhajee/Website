@@ -1,4 +1,4 @@
-/*CSS for Home.jsx*/
+/*CSS for about.jsx*/
 
 @charset "utf-8";
 
@@ -30,7 +30,7 @@ li>a {
 	padding-bottom: 0%;
 }
 
-.home {
+.about {
     padding: 5% 2% 5% 2%;
     background-color: #f8f8f8;
 	width: 80%;
@@ -38,7 +38,7 @@ li>a {
 	margin-right:auto;
 }
 
-.home-text {
+.about-text {
     font-size: 22px;
     text-align: left;
 }
@@ -52,12 +52,12 @@ li>a {
 
 @media only screen {
 	
-	.home {
+	.about {
 		width: 95%;
 		padding-left: 1.5%;
 	}
 	
-	.home-text {
+	.about-text {
 		text-align: left;
 	}
 	
@@ -75,12 +75,12 @@ li>a {
 }
 
 @media (min-width: 500px) {
-	.home {
+	.about {
 		width: 95%;
 		padding-left: 1%;
 	}
 	
-	.home-text {
+	.about-text {
 		text-align: left;
 	}
 	
@@ -90,7 +90,7 @@ li>a {
 }
 
 @media (min-width: 576px) {
-	.home {
+	.about {
 		width: 80%;
 		padding: 5% 2% 5% 2%;
 	}
@@ -108,7 +108,7 @@ li>a {
 }
 
 @media (min-width: 1024px) {
-	.home-text {
+	.about-text {
 		text-align: left;
 	}
 }

@@ -3,9 +3,9 @@ import {Container, Image} from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
 import {goToTop} from 'react-scrollable-anchor';
 
-import './Home.css';
+import './about.css';
 
-class Home extends Component {
+class About extends Component {
 	componentDidMount() {
         goToTop();
     }
@@ -14,9 +14,9 @@ class Home extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>Home - Rehan Hajee</title>
+					<title>About - Rehan Hajee</title>
 				</Helmet>
-				<Container className="home">
+				<Container className="about">
 					<main>
 						<section>
 							<article>
@@ -28,7 +28,7 @@ class Home extends Component {
 							</article>
 						</section>
 						<section>
-							<div className="home-text">
+							<div className="about-text">
 								<hr />
 								<article>
 									<header><h2 className="heading"><u>Skills</u></h2></header>
@@ -335,4 +335,4 @@ class Home extends Component {
 	}
 }
 
-export default Home;
+export default About;

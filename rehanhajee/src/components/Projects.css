@@ -7,8 +7,12 @@ h1 {
 	text-align: center;
 }
 
-h3, h4 {
-	margin: 0;
+h2 {
+	margin-bottom: 0;
+}
+
+h4 {
+	margin-bottom: 9px;
 }
 
 li {
@@ -35,6 +39,9 @@ li {
     text-align: left;
 }
 
+.projects-heading {
+	text-align: left;
+}
 
 @media only screen {
 	.projects {
@@ -46,7 +53,7 @@ li {
 		text-align: left;
 	}
 	
-	.heading {
+	.projects-heading {
 		text-align: center;
 	}
 	
@@ -76,7 +83,7 @@ li {
 		padding: 5% 2% 5% 2%;
 	}
 	
-	.heading {
+	.projects-heading {
 		text-align: left;
 	}
 	

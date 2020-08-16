@@ -24,7 +24,7 @@ class Home extends Component {
 								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
 								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
 								<br />
-								<div className="centre">CIC Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science (Honours) (BSc (Hons)) focused in Computer Science from Ryerson University.</div>
+								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
 							</article>
 						</section>
 						<section>
@@ -64,6 +64,10 @@ class Home extends Component {
 												<li>
 													<i>Awards:</i> Dean's List, Entrance Scholarship
 												</li>
+												<br /><br />
+												<li>
+													<i>Activities:</i> RIMSA Student Group, Ryerson Tech Society
+												</li>
 											</ul>
 										</li>
 										<br /><br />
@@ -71,7 +75,7 @@ class Home extends Component {
 											<h3>Don Mills Collegiate Institute</h3>
 											<i>Ontario Secondary School Diploma, Gifted Intensive Program</i> • September 2012 - June 2016
 											<ul>
-												<li><i>Honors:</i> Ontario Scholar</li>
+												<li><i>Awards:</i> Ontario Scholar</li>
 												<br /><br />
 												<li><i>Activities:</i> Co-President of DMCI Stage Crew, Member of Super Wacky About Tech (SWAT) Team, Eco Team, French Club, Library Helper</li>
 											</ul>
@@ -90,6 +94,14 @@ class Home extends Component {
 												<li>• Responsible for acting as necessary to protect the health, welfare and safety of cadets at the squadron</li>
 												<br />
 												<li>• Assist Training Officer to ensure weekly training gets completed successfully</li>
+											</ul>
+										</li>
+										<br /><br />
+										<h4><i>Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
+										<li>
+											<i>LOO4 - EN-A4 Air Training Team Leader </i> • June 2020 - August 2020
+											<ul>
+												<li>• Facilitated the production of accesible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
 											</ul>
 										</li>
 										<br /><br />
@@ -235,6 +247,8 @@ class Home extends Component {
 												<li>• Ensure set up and wrap up of microphones, projectors, speakers, etc. for events, arrange equipment during events (e.g. New Years event for over 1000 people)</li>
 												<br />
 												<li>• Arrange the equipment neatly after use</li>
+												<br />
+												<li>• Maintain inventory of all equipment</li>
 												<br />
 												<li>• Operate the sound system for the entire building</li>
 												<br />

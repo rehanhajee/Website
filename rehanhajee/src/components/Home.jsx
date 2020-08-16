@@ -62,7 +62,7 @@ class Home extends Component {
 												</li>
 												<br /><br />
 												<li>
-													<i>Awards:</i> Dean's List, Entrance Scholarship
+													<i>Awards:</i> Entrance Scholarship, Dean's List
 												</li>
 												<br /><br />
 												<li>
@@ -87,6 +87,14 @@ class Home extends Component {
 									<header><h2 className="heading"><u>Work Experience</u></h2></header>
 									<ul>
 										<h3>Canadian Armed Forces</h3>
+										<h4><i>Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
+										<li>
+											<i>LOO4 - EN-A4 Air Training Team Leader </i> • June 2020 - August 2020
+											<ul>
+												<li>• Facilitated the production of accesible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
+											</ul>
+										</li>
+										<br /> <br />
 										<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
 										<li>
 											<i>Assistant Training Officer </i> • August 2019 - Present
@@ -94,14 +102,6 @@ class Home extends Component {
 												<li>• Responsible for acting as necessary to protect the health, welfare and safety of cadets at the squadron</li>
 												<br />
 												<li>• Assist Training Officer to ensure weekly training gets completed successfully</li>
-											</ul>
-										</li>
-										<br /><br />
-										<h4><i>Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
-										<li>
-											<i>LOO4 - EN-A4 Air Training Team Leader </i> • June 2020 - August 2020
-											<ul>
-												<li>• Facilitated the production of accesible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
 											</ul>
 										</li>
 										<br /><br />

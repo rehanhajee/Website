@@ -3,7 +3,7 @@ import {Container, Image} from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
 import {goToTop} from 'react-scrollable-anchor';
 
-import './about.css';
+import './About.css';
 
 class About extends Component {
 	componentDidMount() {
@@ -50,7 +50,7 @@ class About extends Component {
 									<ul>
 										<li>
 											<h3>Ryerson University</h3>
-											<i>Bachelor of Science (Honours)</i>
+											<i>Bachelor of Science - Honours</i>
 											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
 											<ul>
 												<li>

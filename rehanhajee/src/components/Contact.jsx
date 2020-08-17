@@ -25,34 +25,34 @@ class Contact extends Component {
 									<header><h2 className="heading"><u>Contact Me</u></h2></header>
 									<br />
 									
-									<Image className="socialMedia" src={require('../images/facebook.svg')} />
-									<Button variant="link" href="https://www.facebook.com/rehan.hajee"><h4><b>FB/rehan.hajee</b></h4></Button>
-									<br /> <br />
-									<Image className="socialMedia" 	src={require('../images/facebook-round.svg')}  />
-									<Button variant="link" href="https://www.facebook.com/rehan.hajee"><h4><b>FB/rehan.hajee</b></h4></Button>
-									<br /><br />
-									<Image className="socialMedia" src={require('../images/linkedIn.svg')}  />
-									<Button variant="link" href="https://www.linkedin.com/in/rehan-hajee/"><h4><b>LI/rehan-hajee</b></h4></Button>
-									<br /><br />
-									<Image className="socialMedia" src={require('../images/email.svg')}  />
-									<Button variant="link" href="mailto:rehanhajee@com"><h4><b>Email me</b></h4></Button>
-									<br /><br />
-									<Image className="socialMedia" src={require('../images/github.svg')}  />
-									<Button variant="link" href="https://github.com/rehanhajee/"><h4><b>Github/rehanhajee</b></h4></Button>
-									<ul>
-										<li>• Highly proficent in Java programming</li>
+									You can contact me at any of the following:
+									
+									<br />
+									<section>
 										<br />
-										<li>• Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
+										<Image className="socialMedia" src={require('../images/facebook.svg')} />
+										<Button variant="link" href="https://www.facebook.com/rehan.hajee"><h4><b>FB/rehan.hajee</b></h4></Button>
 										<br />
-										<li>• Proficient in Microsoft Office Suite, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
+									</section>
+									<section>
 										<br />
-										<li>• Proficient in Linux/UNIX operating systems</li>
+										<Image className="socialMedia" src={require('../images/linkedIn.svg')}  />
+										<Button variant="link" href="https://www.linkedin.com/in/rehan-hajee/"><h4><b>LI/rehan-hajee</b></h4></Button>
 										<br />
-										<li>• Frameworks/Technologies: Git, Angular.JS, Bootstrap, MySQL, React</li>
-									</ul>
+									</section>
+									<section>
+										<br />
+										<Image className="socialMedia" src={require('../images/email.svg')}  />
+										<Button variant="link" href="mailto:rehanhajee@com"><h4><b>Email me</b></h4></Button>
+										<br />
+									</section>
+									<section>
+										<br />
+										<Image className="socialMedia" src={require('../images/github.svg')}  />
+										<Button variant="link" href="https://github.com/rehanhajee/"><h4><b>Github/rehanhajee</b></h4></Button>
+									</section>
 								</article>
 							</div>
-								
 						</section>
 					</main>
 				</Container>

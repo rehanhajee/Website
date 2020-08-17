@@ -30,18 +30,18 @@ class Home extends Component {
 						<section>
 							<div className="home-text">
 								<hr />
-								<article>
+								{/*<article>
 									<header><h2 className="heading"><u>Heading</u></h2></header>
 									<ul>
 										<li>• List Item</li>
 										<br />
 									</ul>
-								</article>
+								</article>*/}
 								<article className="centre">
 								<Button variant="outline-info" size="lg" href="/About">About Me</Button>
-								<br /><br />
+								{/*<br /><br />*/} &nbsp;&nbsp;
 								<Button variant="outline-info" size="lg" href="/Projects">My Projects</Button>
-								<br /><br />
+								{/*<br /><br />*/} &nbsp;&nbsp;
 								<Button variant="outline-info" size="lg" href="/Contact">Contact Me</Button>
 								<br /><br />
 								</article>

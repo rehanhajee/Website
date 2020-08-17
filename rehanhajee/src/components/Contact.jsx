@@ -43,7 +43,7 @@ class Contact extends Component {
 									<section>
 										<br />
 										<Image className="socialMedia" src={require('../images/email.svg')}  />
-										<Button variant="link" href="mailto:rehanhajee@com"><h4><b>Email me</b></h4></Button>
+										<Button variant="link" href="mailto:rehanhajee@gmail.com"><h4><b>Email me</b></h4></Button>
 										<br />
 									</section>
 									<section>

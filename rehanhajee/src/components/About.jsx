@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Image} from 'react-bootstrap'; 
+import {Container} from 'react-bootstrap'; 
 import {Helmet} from 'react-helmet';
 import {goToTop} from 'react-scrollable-anchor';
 
@@ -14,15 +14,14 @@ class About extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>About - Rehan Hajee</title>
+					<title>About — Rehan Hajee</title>
 				</Helmet>
 				<Container className="about">
 					<main>
 						<section>
 							<article>
-								<br /><br />
-								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
-								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
+								<br />
+								<h1><u>I'm Rehan Hajee</u></h1>
 								<br />
 								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
 							</article>

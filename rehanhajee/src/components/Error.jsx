@@ -7,7 +7,7 @@ class Error extends Component {
         return (
 			<div>
 				<Helmet>
-					<title>Error 404 - Rehan Hajee</title>
+					<title>Error 404 — Rehan Hajee</title>
 				</Helmet>
 				<Container className="error">
 					<main>

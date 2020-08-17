@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Error from './components/Error';
 
 import './App.css';
@@ -20,6 +21,7 @@ class App extends Component {
 							<Route exact path="/" component={Home}/>
 							<Route exact path="/About" component={About}/>
 							<Route path="/Projects" component={Projects}/>
+							<Route path="/Contact" component={Contact}/>
 							<Route path="" component={Error}/>
 						</Switch>
 						<Footer />

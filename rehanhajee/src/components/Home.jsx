@@ -22,9 +22,10 @@ class Home extends Component {
 							<article>
 								<br /><br />
 								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
-								<h1><br /><u>Hi, I'm Rehan Hajee</u></h1>
 								<br />
-								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
+								<h1><b>Hi, I'm Rehan Hajee!</b></h1>
+								<br />
+								<div className="centre">I am a Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
 							</article>
 						</section>
 						<section>
@@ -39,9 +40,9 @@ class Home extends Component {
 								</article>*/}
 								<article className="centre">
 								<Button variant="outline-info" size="lg" href="/About">About Me</Button>
-								{/*<br /><br />*/} &nbsp;&nbsp;
+								{/*<br /><br />*/}
 								<Button variant="outline-info" size="lg" href="/Projects">My Projects</Button>
-								{/*<br /><br />*/} &nbsp;&nbsp;
+								{/*<br /><br />*/}
 								<Button variant="outline-info" size="lg" href="/Contact">Contact Me</Button>
 								<br /><br />
 								</article>

@@ -8,7 +8,7 @@ class CustomNavbar extends Component {
 		return (
 			<Navbar bg="dark" variant="dark" expand="lg" className="navbar fixed-top navbar-dark">
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Brand href="/">Rehan Hajee</Navbar.Brand>
+				<Navbar.Brand href="/"><b>Rehan Hajee</b></Navbar.Brand>
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
 						<Nav.Link href="/" className="menuItem">Home</Nav.Link>

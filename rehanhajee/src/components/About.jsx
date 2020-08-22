@@ -20,8 +20,7 @@ class About extends Component {
 					<main>
 						<section>
 							<article>
-								<br />
-								<h1><u>I'm Rehan Hajee</u></h1>
+							<header><h1 className="heading"><b>I'm Rehan Hajee</b></h1></header>
 								<br />
 								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
 							</article>
@@ -109,7 +108,7 @@ class About extends Component {
 										<li>
 											<i>Drill and Ceremonial Course Administration Officer</i> • June 2019 - August 2019
 											<ul>
-												<li>• Was responsible for acting as necessary to protect the health, welfare and safety of the Drill and Ceremonial course cadets and staff cadets</li>
+												<li>• Acted as necessary to protect the health, welfare and safety of the Drill and Ceremonial course cadets and staff cadets</li>
 												<br />
 												<li>• Ensured any required forms are completed accurately and correctly</li>
 												<br />
@@ -120,7 +119,7 @@ class About extends Component {
 										<li>
 											<i>General Training Course Flight Instructor</i> • July 2018 - August 2018
 											<ul>
-												<li>• Was responsible for acting as necessary to protect the health, welfare and safety of the General Training course cadets and staff cadets</li>
+												<li>• Acted as necessary to protect the health, welfare and safety of the General Training course cadets and staff cadets</li>
 												<br />
 												<li>• Ensured a steady stream of information to the flight commander, staff cadets, and course cadets</li>
 												<br />
@@ -134,7 +133,7 @@ class About extends Component {
 											<i>General Training Sergeant</i> • July 2017 - August 2017
 											<br />
 											<ul>
-												<li>• Was responsible for acting as necessary to protect the health, welfare and safety of all General Training course cadets</li>
+												<li>• Acted as necessary to protect the health, welfare and safety of all General Training course cadets</li>
 												<br />
 												<li>• Supervised cadets during all scheduled activities and participate when appropriate</li>
 												<br />

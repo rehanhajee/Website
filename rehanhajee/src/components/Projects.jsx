@@ -24,7 +24,7 @@ class Projects extends Component {
 					<main>
 						<section className="projects-text">
 							<br />
-							<header><h1><u>Projects</u></h1></header>
+							<header><h1 className="heading"><b>Projects</b></h1></header>
 							<br />
 							
 							{/*{iframe("https://www.cs.ryerson.ca/~r2hajee/personalWebsite/weatherApp/index.html", "Weather App")}*/}

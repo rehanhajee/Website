@@ -22,7 +22,7 @@ class Contact extends Component {
 							<div className="contact-text">
 								<br />
 								<article>
-									<header><h2 className="heading"><u>Contact Me</u></h2></header>
+									<header><h1 className="heading"><b>Contact Me</b></h1></header>
 									<br />
 									
 									You can contact me at any of the following:
@@ -30,13 +30,13 @@ class Contact extends Component {
 									<br />
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/facebook.svg')} />
+										<Image className="socialMedia" src={require('../images/facebook-brands.svg')} />
 										<Button variant="link" href="https://www.facebook.com/rehan.hajee"><h4><b>FB/rehan.hajee</b></h4></Button>
 										<br />
 									</section>
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/linkedIn.svg')}  />
+										<Image className="socialMedia" src={require('../images/linkedin-brands.svg')}  />
 										<Button variant="link" href="https://www.linkedin.com/in/rehan-hajee/"><h4><b>LI/rehan-hajee</b></h4></Button>
 										<br />
 									</section>
@@ -48,8 +48,10 @@ class Contact extends Component {
 									</section>
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/github.svg')}  />
+										
+										<Image className="socialMedia github" src={require('../images/github-brands.svg')}  />
 										<Button variant="link" href="https://github.com/rehanhajee/"><h4><b>Github/rehanhajee</b></h4></Button>
+										<br />
 									</section>
 								</article>
 							</div>

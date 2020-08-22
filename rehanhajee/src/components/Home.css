@@ -2,6 +2,20 @@
 
 @charset "utf-8";
 
+.btn {
+	margin: 6px;
+}
+
+.btn-outline-info {
+	color: #0080ff;
+	border-color: #0080ff;
+}
+
+.btn:hover {
+	background-color: #0080ff; 
+	border-color: #0080ff;
+}
+
 h1 {
     font-size: 36px;
 	text-align: center;

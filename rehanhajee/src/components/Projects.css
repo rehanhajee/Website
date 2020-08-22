@@ -2,7 +2,7 @@
 
 @charset "utf-8";
 
-h1 {
+h1.heading {
     font-size: 36px;
 	text-align: center;
 }
@@ -24,6 +24,10 @@ li {
 	padding-top: 0%;
 	text-align: center;
 	padding-bottom: 0%;
+}
+
+.heading {
+	text-align: left;
 }
 
 .projects {
@@ -51,6 +55,10 @@ li {
 	
 	.projects-text {
 		text-align: left;
+	}
+
+	.heading {
+		text-align: center;
 	}
 	
 	.projects-heading {

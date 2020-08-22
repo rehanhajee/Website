@@ -27,19 +27,19 @@
 	font-weight:bold;
 	text-align: left;
     font-size: 2rem;
-	color:#300CE8;
-	text-shadow: 4px 2px 10px #300CE8;
+	color:#0080ff;
+	text-shadow: 2px 2px 12px #0080ff;
 	margin: 0;
-	padding-left: 5px;
+	padding-left: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color:#00a284;
+	color:#00a2f4;
 	font-weight: bold;
 }
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus {
-	color:#2897ff;
+	color:#00a2f4;
 }
 
 .navbar-dark .navbar-brand:hover {
@@ -54,7 +54,7 @@
 }
 
 .menuItem:hover {
-	background-color: #45A694;
+	background-color: #00a2f4;
 	color: #343a40;
 	text-decoration: none;
 	width: auto;

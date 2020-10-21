@@ -2,19 +2,22 @@ import React, {Component} from 'react';
 import {Container} from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
 
+import './Error.css';
+
 class Error extends Component {
     render() {
         return (
-			<div>
+			<div className="background">
 				<Helmet>
-					<title>Error 404 — Rehan Hajee</title>
+					<title>Error — Rehan Hajee</title>
 				</Helmet>
 				<Container className="error">
 					<main>
-						<section>
-							<article className="error-text">
-								<br /><br />
-								<h1>404 - Not Found</h1>
+						<section className="error-text">
+							<header><h1 className="heading"><b>Error</b></h1></header>
+							<article >	
+								<br />
+								The page you are looking for does not exist. 
 								<br /><br />
 								Ensure you have entered the correct link and try again later.
 								<br /><br /><br /><br />

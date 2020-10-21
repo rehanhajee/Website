@@ -39,11 +39,11 @@ class Home extends Component {
 									</ul>
 								</article>*/}
 								<article className="centre">
-								<Button variant="outline-info" size="lg" href="/About">About Me</Button>
+								<Button variant="outline-info" size="lg" href="/About"> About Me </Button>
 								{/*<br /><br />*/}
-								<Button variant="outline-info" size="lg" href="/Projects">My Projects</Button>
+								<Button variant="outline-info" size="lg" href="/Projects"> My Projects </Button>
 								{/*<br /><br />*/}
-								<Button variant="outline-info" size="lg" href="/Contact">Contact Me</Button>
+								<Button variant="outline-info" size="lg" href="/Contact"> Contact Me </Button>
 								<br /><br />
 								</article>
 							</div>

@@ -20,7 +20,7 @@ class About extends Component {
 					<main>
 						<section>
 							<article>
-							<header><h1 className="heading"><b>I'm Rehan Hajee</b></h1></header>
+								<header><h1 className="heading"><b>I'm Rehan Hajee</b></h1></header>
 								<br />
 								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
 							</article>

@@ -23,7 +23,6 @@ class Projects extends Component {
 				<Container className="projects">
 					<main>
 						<section className="projects-text">
-							<br />
 							<header><h1 className="heading"><b>Projects</b></h1></header>
 							<br />
 							

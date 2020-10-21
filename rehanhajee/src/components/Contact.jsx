@@ -20,7 +20,6 @@ class Contact extends Component {
 					<main>
 						<section>
 							<div className="contact-text">
-								<br />
 								<article>
 									<header><h1 className="heading"><b>Contact Me</b></h1></header>
 									<br />
@@ -43,7 +42,7 @@ class Contact extends Component {
 									<section>
 										<br />
 										<Image className="socialMedia" src={require('../images/email.svg')}  />
-										<Button variant="link" href="mailto:rehanhajee@gmail.com"><h4><b>Email me</b></h4></Button>
+										<Button variant="link" href="mailto:info@rehanhajee.me"><h4><b>Email</b></h4></Button>
 										<br />
 									</section>
 									<section>

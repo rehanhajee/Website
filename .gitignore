@@ -30,8 +30,9 @@ package-lock.json
 
 Links/*
 
-rehanhajee/.env
 Logo.ai
 rehanhajee/HowToRun
 rehanhajee/package-lock.json
 rehanhajee/package.json
+
+src/components/labs/*

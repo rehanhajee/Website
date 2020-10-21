@@ -26,13 +26,11 @@ yarn-error.log*
 index.js
 package.json
 package-lock.json
-package-lock.json
 
 Links/*
 
 Logo.ai
-rehanhajee/HowToRun
-rehanhajee/package-lock.json
-rehanhajee/package.json
+HowToRun
 
 src/components/labs/*
+

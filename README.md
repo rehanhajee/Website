@@ -1,3 +1,8 @@
+## Personal Portfilio
+This project is my personal portfolio.
+
+All the code is documented and is available for use. However, please send me a message if you plan on using the code
+
 You can find the original website at [rehanhajee.me](http://rehanhajee.me)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

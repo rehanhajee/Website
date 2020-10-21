@@ -22,23 +22,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-Links/Deploy Your React App To Heroku - DEV Community 👩-💻👨-💻.url
-Links/https---react-bootstrap.github.io-components-navbar-.url
-Links/ReactJS - Build a Responsive Navigation Bar & Side Drawer Tutorial - YouTube.url
-Links/javascript - ReactJS get XMLHttpRequest not working - Stack Overflow.url
-Links/May 16/Handling Events – React.url
-Links/May 16/Passing Functions to Components – React.url
-Links/May 16/javascript - How to set iframe content of a react component - Stack Overflow.url
-Links/May 16/Rendering to iFrames in React - Ryan Seddon - Medium.url
-Links/May 16/reactjs - integrating js code inside react component - Stack Overflow.url
-Links/May 16/Refs and the DOM – React.url
-
-rehanhajee/.env
-Logo.ai
-rehanhajee/HowToRun
-
 #confidential info
 index.js
 package.json
 package-lock.json
 package-lock.json
+
+Links/*
+
+rehanhajee/.env
+Logo.ai
+rehanhajee/HowToRun
+rehanhajee/package-lock.json
+rehanhajee/package.json

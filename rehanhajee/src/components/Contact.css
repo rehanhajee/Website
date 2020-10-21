@@ -7,9 +7,17 @@ h1 {
 	text-align: center;
 }
 
+h1.heading {
+    font-size: 36px;
+	text-align: center;
+	padding-top: 5%;
+}
+
+/*
 .heading {
 	text-align: left;
 }
+*/
 
 h3, h4 {
 	margin: 0;
@@ -60,6 +68,10 @@ li>a {
 		text-align: left;
 	}
 	
+	h1.heading {
+		padding-top: 18%;
+	}
+	
 	.heading {
 		text-align: center;
 	}
@@ -77,6 +89,10 @@ li>a {
 	
 	.contact-text {
 		text-align: left;
+	}
+
+	h1.heading {
+		padding-top: 10%;
 	}
 	
 	li, ul>h3, ul h4 {
@@ -100,10 +116,21 @@ li>a {
 	li, ul>h3, ul h4 {
 		margin-left: 0;
 	}
+
+	h1.heading {
+		padding-top: 5%;
+	}
 }
 
 @media (min-width: 1024px) {
 	.contact-text {
 		text-align: left;
+	}
+	
+}
+
+@media (min-width: 1280px) {
+	h1.heading {
+		padding-top: 0;
 	}
 }

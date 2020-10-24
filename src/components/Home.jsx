@@ -21,7 +21,7 @@ class Home extends Component {
 						<section>
 							<article>
 								<br /><br />
-								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')}  /></figure>
+								<figure className="centre"><Image className="profilePic" src={require('../images/profilePicture.JPG')} alt="Profile Picture" /></figure>
 								<br />
 								<h1><b>Hi, I'm Rehan Hajee!</b></h1>
 								<br />

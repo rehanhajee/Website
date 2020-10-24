@@ -1,7 +1,7 @@
-## Personal Portfilio
+## Personal Portfolio
 This project is my personal portfolio.
 
-All the code is documented and is available for use. However, please send me a message if you plan on using the code
+All the code is documented and is available for use. However, please send me a message if you plan on using the code.
 
 You can find the original website at [rehanhajee.me](http://rehanhajee.me)
 

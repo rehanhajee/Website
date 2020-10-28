@@ -58,6 +58,7 @@
 	color: #343a40;
 	text-decoration: none;
 	width: auto;
+	border-radius:10%;
 }
 
 .header {
@@ -66,6 +67,10 @@
 
 /*responsive styling*/
 @media only screen {
+	.menuItem:hover {
+		border-radius: 0%;
+	}
+
 	.navbar {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -74,6 +79,7 @@
 	.navbar-brand {
 		padding-left: 5px;
 	}
+	
 }
 
 @media (max-width:991px) {
@@ -92,5 +98,11 @@
 		margin-left: 0;
 		text-align: center;
 
+	}
+}
+
+@media (min-width:992px) {
+	.menuItem:hover {
+		border-radius:10%;
 	}
 }

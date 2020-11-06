@@ -26,7 +26,7 @@ class Media extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>Media — Rehan Hajee</title>
+					<title>Media - Rehan Hajee</title>
 				</Helmet>
 				<Container className="media">
 					<main>

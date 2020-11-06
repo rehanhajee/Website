@@ -9,7 +9,7 @@ class Error extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>Error — Rehan Hajee</title>
+					<title>Error - Rehan Hajee</title>
 				</Helmet>
 				<Container className="error">
 					<main>

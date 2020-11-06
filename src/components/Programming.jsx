@@ -18,7 +18,7 @@ class Programming extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>Programming — Rehan Hajee</title>
+					<title>Programming - Rehan Hajee</title>
 				</Helmet>
 				<Container className="programming">
 					<main>

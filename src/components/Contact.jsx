@@ -14,7 +14,7 @@ class Contact extends Component {
         return (
 			<div className="background">
 				<Helmet>
-					<title>Contact Me — Rehan Hajee</title>
+					<title>Contact Me - Rehan Hajee</title>
 				</Helmet>
 				<Container className="contact">
 					<main>

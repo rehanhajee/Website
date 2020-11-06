@@ -15,4 +15,4 @@ const config = {
     }
   }
    
-  export default Firebase;
+export default Firebase;

@@ -40,9 +40,8 @@ class Home extends Component {
 								</article>*/}
 								<article className="centre">
 								<Button variant="outline-info" size="lg" href="/About"> About Me </Button>
-								{/*<br /><br />*/}
-								<Button variant="outline-info" size="lg" href="/Projects"> My Projects </Button>
-								{/*<br /><br />*/}
+								<Button variant="outline-info" size="lg" href="/Programming"> Programming </Button>
+								<Button variant="outline-info" size="lg" href="/Media"> Media Production </Button>
 								<Button variant="outline-info" size="lg" href="/Contact"> Contact Me </Button>
 								<br /><br />
 								</article>

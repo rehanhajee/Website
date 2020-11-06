@@ -1,4 +1,4 @@
-/*CSS for Projects.jsx*/
+/*CSS for Programming.jsx*/
 
 @charset "utf-8";
 
@@ -31,7 +31,7 @@ li {
 	text-align: left;
 }
 
-.projects {
+.programming {
     padding: 5% 2% 5% 2%;
     background-color: #f8f8f8;
 	width: 90%;
@@ -39,22 +39,22 @@ li {
 	margin-right:auto;
 }
 
-.projects-text {
+.programming-text {
     font-size: 22px;
     text-align: left;
 }
 
-.projects-heading {
+.programming-heading {
 	text-align: left;
 }
 
 @media only screen {
-	.projects {
+	.programming {
 		width: 95%;
 		padding-left: 1.5%;
 	}
 	
-	.projects-text {
+	.programming-text {
 		text-align: left;
 	}
 
@@ -66,7 +66,7 @@ li {
 		text-align: center;
 	}
 	
-	.projects-heading {
+	.programming-heading {
 		text-align: center;
 	}
 	
@@ -76,12 +76,12 @@ li {
 }
 
 @media (min-width: 500px) {
-	.projects {
+	.programming {
 		width: 95%;
 		padding-left: 1%;
 	}
 	
-	.projects-text {
+	.programming-text {
 		text-align: left;
 	}
 
@@ -95,12 +95,12 @@ li {
 }
 
 @media (min-width: 576px) {
-	.projects {
+	.programming {
 		width: 80%;
 		padding: 5% 2% 5% 2%;
 	}
 	
-	.projects-heading {
+	.programming-heading {
 		text-align: left;
 	}
 	
@@ -117,7 +117,7 @@ li {
 }
 
 @media (min-width: 1024px) {
-	.projects-text {
+	.programming-text {
 		text-align: left;
 	}
 }

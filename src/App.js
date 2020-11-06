@@ -4,7 +4,8 @@ import CustomNavbar from './components/CustomNavbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+import Programming from './components/Programming';
+import Media from './components/Media';
 import Contact from './components/Contact';
 import Error from './components/Error';
 
@@ -20,8 +21,9 @@ class App extends Component {
 						<Switch className="App">
 							<Route exact path="/" component={Home}/>
 							<Route exact path="/About" component={About}/>
-							<Route path="/Projects" component={Projects}/>
+							<Route path="/Programming" component={Programming}/>
 							<Route path="/Contact" component={Contact}/>
+							<Route path="/Media" component={Media}/>
 							<Route path="" component={Error}/>
 						</Switch>
 						<Footer />

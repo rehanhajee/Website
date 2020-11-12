@@ -24,9 +24,9 @@ yarn-debug.log*
 yarn-error.log*
 
 #confidential info
-index.js
 package.json
 package-lock.json
+config.js
 
 Ignore/*
 

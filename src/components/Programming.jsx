@@ -30,7 +30,7 @@ class Programming extends Component {
 							
 							<article>
 								<h2 className="programming-heading">Personal Website</h2>
-								<h4><i>(HTML/CSS, React.js, Firebase Hosting)</i></h4>
+								<h4><i>(HTML/CSS, React.js, Firebase Hosting, Firebase Analytics)</i></h4>
 								This is my personal website to showcase the projects and previous work and volunteer experience. The purpose of this website to show my technical knowledge and design theory. The Github link and Website link can be found below.
 								<br />
 								<b>Github Link: <a href="https://github.com/rehanhajee/Website">Here</a></b>

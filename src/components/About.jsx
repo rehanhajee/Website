@@ -56,7 +56,7 @@ class About extends Component {
 												</li>
 												<br /><br />
 												<li>
-													<i>Projects:</i> Can be found <a href="/Projects">here</a>.
+													<i>Projects:</i> Can be found <a href="/Programming">here</a>.
 												</li>
 												<br /><br />
 												<li>
@@ -85,11 +85,20 @@ class About extends Component {
 									<header><h2 className="heading"><u>Work Experience</u></h2></header>
 									<ul>
 										<h3>Canadian Armed Forces</h3>
-										<h4><i>Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
+										<h4><i>Regional Support Cadet Unit Central</i></h4>
+										<li>
+											<i>J1 HR Admin - CTC Staffing </i> • May 2021 - August 2021
+											<ul>
+												<li>• Responsible to the J1 Staffing Officer for the processing and distribution of Cadet Training Centre (CTC) summer staff applications</li>
+												<li>• Second point here</li>
+											</ul>
+										</li>
+										<br /> <br />
+										<h4><i>National Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
 										<li>
 											<i>LOO4 - EN-A4 Air Training Team Leader </i> • June 2020 - August 2020
 											<ul>
-												<li>• Facilitated the production of accesible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
+												<li>• Facilitated the production of accessible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -306,11 +315,15 @@ class About extends Component {
 								<article>
 									<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 									<ul>
+										<li>Psychological First Aid - Self-Care (2021)</li>
+										<br />
+										<li>Psychological First Aid - Caring for Others(2021)</li>
+										<br />
+										<li>• First Aid level 'C' with AED training (2020)</li>
+										<br />
 										<li>• Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
 										<br />
 										<li>• Ontario Volunteer Service Award – Youth (2017)</li>
-										<br />
-										<li>• First Aid level 'C' with AED training (2017)</li>
 										<br />
 										<li>• Restricted Operator’s Certificate – Aeronautical (2015)</li>
 										<br />

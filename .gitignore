@@ -33,4 +33,5 @@ Ignore/*
 HowToRun
 
 src/components/labs/*
+src/background/*
 

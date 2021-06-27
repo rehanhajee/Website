@@ -1,13 +1,9 @@
-/*CSS for App.js*/
-
-a {
-	color:#0080ff;
-	font-size: 20px;
-	text-decoration:none;
-}
-
 .App {
   text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
 }
 
 .App-header {
@@ -22,15 +18,5 @@ a {
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-.centre {
-	padding-top: 0%;
-	text-align: center;
-	padding-bottom: 0%;
-}
-
-.error {
-	text-align: center;
+  color: #09d3ac;
 }

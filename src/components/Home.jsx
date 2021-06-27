@@ -12,7 +12,7 @@ class Home extends Component {
 	
     render() {
         return (
-			<div className="background">
+			<div>
 				<Helmet>
 					<title>Rehan Hajee</title>
 				</Helmet>

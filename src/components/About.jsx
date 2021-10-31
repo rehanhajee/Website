@@ -87,10 +87,19 @@ class About extends Component {
 										<h3>Canadian Armed Forces</h3>
 										<h4><i>Regional Support Cadet Unit Central</i></h4>
 										<li>
-											<i>J1 HR Admin - CTC Staffing </i> • May 2021 - August 2021
+											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - March 2022 (expected)
 											<ul>
-												<li>• Responsible to the J1 Staffing Officer for the processing and distribution of Cadet Training Centre (CTC) summer staff applications</li>
-												<li>• Second point here</li>
+												<li>• Screen and hire staff cadets and adult staff for summer training </li>
+												<li>• Accurately enter all applicable applicant data into the CTC Staffing database while identifying that all employment conditions are met correctly</li>
+											</ul>
+										</li>
+										<br /> <br />
+										<h4><i>Regional Support Cadet Unit Central</i></h4>
+										<li>
+											<i>J1 Staffing Clerk</i> • May 2021 - August 2021
+											<ul>
+												<li>• Screen and hire staff cadets and adult staff for summer training </li>
+												<li>• Accurately enter all applicable applicant data into the CTC Staffing database while identifying that all employment conditions are met correctly</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -315,9 +324,9 @@ class About extends Component {
 								<article>
 									<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 									<ul>
-										<li>Psychological First Aid - Self-Care (2021)</li>
+										<li>• Psychological First Aid - Self-Care (2021)</li>
 										<br />
-										<li>Psychological First Aid - Caring for Others(2021)</li>
+										<li>• Psychological First Aid - Caring for Others (2021)</li>
 										<br />
 										<li>• First Aid level 'C' with AED training (2020)</li>
 										<br />

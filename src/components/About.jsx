@@ -89,8 +89,9 @@ class About extends Component {
 										<li>
 											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - March 2022 (expected)
 											<ul>
-												<li>• Screen and hire staff cadets and adult staff for summer training </li>
-												<li>• Accurately enter all applicable applicant data into the CTC Staffing database while identifying that all employment conditions are met correctly</li>
+												<li>• Prepare NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
+												<li>• Log NES members in a database and follow-up on time sensitive letters</li>
+												<li>• Prepare a monthly NES report to be sent to senior leadership for visibility on inactive members</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -98,7 +99,7 @@ class About extends Component {
 										<li>
 											<i>J1 Staffing Clerk</i> • May 2021 - August 2021
 											<ul>
-												<li>• Screen and hire staff cadets and adult staff for summer training </li>
+												<li>• Screen and hire staff cadets and adult staff for summer training</li>
 												<li>• Accurately enter all applicable applicant data into the CTC Staffing database while identifying that all employment conditions are met correctly</li>
 											</ul>
 										</li>

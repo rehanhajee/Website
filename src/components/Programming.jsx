@@ -31,7 +31,7 @@ class Programming extends Component {
 							<article>
 								<h2 className="programming-heading">Personal Website</h2>
 								<h4><i>(HTML/CSS, React.js, Firebase Hosting, Firebase Analytics)</i></h4>
-								This is my personal website to showcase the projects and previous work and volunteer experience. The purpose of this website to show my technical knowledge and design theory. The Github link and Website link can be found below.
+								This is my personal website to showcase my projects and previous work and volunteer experience. The purpose of this website to show my technical knowledge and design theory. The Github link and Website link can be found below.
 								<br />
 								<b>Github Link: <a href="https://github.com/rehanhajee/Website">Here</a></b>
 								<br />
@@ -95,7 +95,7 @@ class Programming extends Component {
 							<article>
 								<h2 className="programming-heading">Resume Builder</h2>
 								<h4><i>(HTML/CSS, PHP)</i></h4>
-								This was a web application that assisted users to create their own resume using the given template. The site allowed users to send an email from the webiste to request more information. The fron-end was designed using HTML/CSS with React framework; back-end was designed using PHP with Laravel.
+								This was a web application that assisted users to create their own resume with a given template. The site allowed users to send an email from the webiste to request more information. The fron-end was designed using HTML/CSS with React framework; back-end was designed using PHP with Laravel.
 								{/*
 								<br />
 								<b>Github Link: <a href="#">Here</a></b>

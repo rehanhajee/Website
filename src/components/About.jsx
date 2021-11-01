@@ -35,7 +35,7 @@ class About extends Component {
 										<br />
 										<li>• Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
 										<br />
-										<li>• Proficient in Microsoft Office Suite, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
+										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
 										<br />
 										<li>• Proficient in Linux/UNIX operating systems</li>
 										<br />
@@ -52,7 +52,7 @@ class About extends Component {
 											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
 											<ul>
 												<li>
-													<i>Relevant Courses:</i> Computer science courses include: Data Structures, Web Systems Development, Database Systems I, Introduction to C and UNIX
+													<i>Relevant Courses:</i> Data Structures, Web Systems Development, Database Systems I, Introduction to C and UNIX
 												</li>
 												<br /><br />
 												<li>
@@ -91,7 +91,7 @@ class About extends Component {
 											<ul>
 												<li>• Prepare NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
 												<li>• Log NES members in a database and follow-up on time sensitive letters</li>
-												<li>• Prepare a monthly NES report to be sent to senior leadership for visibility on inactive members</li>
+												<li>• Prepare a monthly NES report sent to senior leadership for visibility on inactive members</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -99,8 +99,8 @@ class About extends Component {
 										<li>
 											<i>J1 Staffing Clerk</i> • May 2021 - August 2021
 											<ul>
-												<li>• Screen and hire staff cadets and adult staff for summer training</li>
-												<li>• Accurately enter all applicable applicant data into the CTC Staffing database while identifying that all employment conditions are met correctly</li>
+												<li>• Screened and hired staff cadets and adult staff for summer training ensuring that all employment conditions were met</li>
+												<li>• Accurately enter all applicable applicant data into the Cadet Training Centre (CTC) Staffing database, handled confidential information</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -200,7 +200,7 @@ class About extends Component {
 											<ul>
 												<li>• Organized an activity for the Science Orientation 2018</li>
 												<br />
-												<li>• Assistted other members when required</li>
+												<li>• Assisted other members when required</li>
 											</ul>
 										</li>
 										<br /><br />
@@ -218,13 +218,9 @@ class About extends Component {
 											<h3>Ismaili Centre Toronto Audio/Visual Team</h3>
 											<i>Member</i> • September 2014 - Present
 											<ul>
-												<li>• Set up and wrap up microphones, projectors, speakers, etc. for events</li>
+												<li>• Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
 												<br />
-												<li>• Arrange the equipment neatly after use</li>
-												<br />
-												<li>• Operate the sound system for the entire building</li>
-												<br />
-												<li>• Troubleshoot any technical issues on the spot</li>
+												<li>• Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
 											</ul>
 										</li>
 										<br /><br />
@@ -261,27 +257,19 @@ class About extends Component {
 											<h3>Willowdale Jamatkhana Audio/Visual Team</h3>
 											<i>Lead</i> • July 2007 - Present
 											<ul>
-												<li>• Ensure set up and wrap up of microphones, projectors, speakers, etc. for events, arrange equipment during events (e.g. New Years event for over 1000 people)</li>
-												<br />
-												<li>• Arrange the equipment neatly after use</li>
-												<br />
-												<li>• Maintain inventory of all equipment</li>
-												<br />
-												<li>• Operate the sound system for the entire building</li>
-												<br />
-												<li>• Troubleshoot any technical issues on the spot</li>
+												<li>• Manage a team of 10 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. New Year’s event for over 1,000 guests)</li>
 											</ul>
 										</li>
 										<br /><br />
 										<li>
 											<h3>Ismaili Volunteer Corps</h3>
-											<i>Member</i> • November 2006 - Present
+											<i>Member, Team Lead (2021 – Present)</i> • November 2006 - Present
 											<ul>
-												<li>• Assist in allocating and completing daily operational tasks for the Ismaili community</li>
+												<li>• Allocate and complete daily operational tasks for the Ismaili community center operations</li>
 												<br />
 												<li>• Helping the sick, elderly, and disabled members of the Toronto Ismaili community</li>
 												<br />
-												<li>• Operate the sound system for the entire building</li>
+												<li>• Facilitate large-scale events such as the World Partnership Walk, a fundraising event with 40,000 participants</li>
 											</ul>
 										</li>
 									</ul>
@@ -294,17 +282,15 @@ class About extends Component {
 											<h3>Ryerson Ismaili Muslim Student Association (RIMSA)</h3>
 											<i>President</i> • June 2018 - June 2019
 											<ul>
-												<li>• Liaise between ISA members and executive members</li>
+												<li>•	Liaised between RIMSA members and executive members to ensure events were run smoothly</li>
 												<br />
-												<li>• Secure funding for large-scale events through Ryerson Student Union and private donors</li>
+												<li>• Secured funding for large-scale events through Ryerson Student Union and private donors</li>
 											</ul>
 											<i>Treasurer</i> • April 2017 – June 2018, September 2019 – June 2020
 											<ul>
-												<li>• Liaise between ISA members and executive members</li>
-												<br />
 												<li>• Manage funds used and received by the ISA</li>
 												<br />
-												<li>• Budget and ensure that events planned and implemented are within the financial means of the club</li>
+												<li>• Created yearly budgets and ensured that events are planned and implemented within the financial means of the club</li>
 											</ul>
 										</li>
 										<br /><br />

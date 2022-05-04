@@ -52,7 +52,7 @@ class About extends Component {
 											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
 											<ul>
 												<li>
-													<i>Relevant Courses:</i> Data Structures, Web Systems Development, Database Systems I, Introduction to C and UNIX
+													<i>Relevant Courses:</i> Web Systems Development, Data Structures, Database Systems I, Introduction to C and UNIX
 												</li>
 												<br /><br />
 												<li>

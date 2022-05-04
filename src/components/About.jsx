@@ -35,7 +35,7 @@ class About extends Component {
 										<br />
 										<li>• Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
 										<br />
-										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
+										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Microsoft PowerApps, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
 										<br />
 										<li>• Proficient in Linux/UNIX operating systems</li>
 										<br />
@@ -87,7 +87,7 @@ class About extends Component {
 										<h3>Canadian Armed Forces</h3>
 										<h4><i>Regional Support Cadet Unit Central</i></h4>
 										<li>
-											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - March 2022 (expected)
+											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - July 2022 (expected)
 											<ul>
 												<li>• Prepare NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
 												<li>• Log NES members in a database and follow-up on time sensitive letters</li>
@@ -194,6 +194,16 @@ class About extends Component {
 								<article>
 									<header><h2 className="heading"><u>Volunteer Experience</u></h2></header>
 									<ul>
+										<li>
+											<h3>Aga Khan Economic Planning Board for Canada</h3>
+											<i>Ismaili Business Support Network (IBSN) CRM Lead</i> • October 2021 - Present
+											<ul>
+												<li>• Maintain the IBSN CRM PowerApps app as needed</li>
+												<br />
+												<li>• Update the User Interface and Experience to ensure important information is easily accessible</li>
+											</ul>
+										</li>
+										<br /><br />
 										<li>
 											<h3>Ryerson University</h3>
 											<i>Science Orientation Operations Team Member</i> • August 2018
@@ -311,19 +321,19 @@ class About extends Component {
 								<article>
 									<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 									<ul>
+										<li>• First Aid level 'C' with AED training (2022)</li>
+										<br />
+										<li>• Workplace Hazardous Materials Information System (WHMIS) 2015 Orientation (2022)</li>
+										<br />
 										<li>• Psychological First Aid - Self-Care (2021)</li>
 										<br />
 										<li>• Psychological First Aid - Caring for Others (2021)</li>
-										<br />
-										<li>• First Aid level 'C' with AED training (2020)</li>
 										<br />
 										<li>• Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
 										<br />
 										<li>• Ontario Volunteer Service Award – Youth (2017)</li>
 										<br />
 										<li>• Restricted Operator’s Certificate – Aeronautical (2015)</li>
-										<br />
-										<li>• Workplace Hazardous Materials Information System (WHMIS) for Workers (2015)</li>
 										<br />
 										<li>• Community Service Honours, Level 2 Gold, Ismaili Students Total Achievement and Recognition (ISTAR) Awards (2015)</li>
 										<br />

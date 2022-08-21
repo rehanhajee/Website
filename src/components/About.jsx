@@ -85,9 +85,20 @@ class About extends Component {
 									<header><h2 className="heading"><u>Work Experience</u></h2></header>
 									<ul>
 										<h3>Canadian Armed Forces</h3>
+										<h4><i>Blackdown Cadet Training Centre</i></h4>
+										<li>
+											<i>Survival Instructor Course (SIC) Logistics Officer, Flight Commander</i> • June 2022 - August 2022
+											<ul>
+												<li>• Identified and managed all material requirements for SIC and acting as the OPI for all logistical support</li>
+												<li>• Issued, retrieved, and maintained required materials to and from SIC personnel and ensured that all non-serviceable materials were marked accordingly</li>
+												<li>• Monitored training conditions and advised Course Commander, as required</li>
+												<li>• Provided mentorship and guidance to Staff Cadets to allow them to practice leadership and management skills</li>
+											</ul>
+										</li>
+										<br /> <br />
 										<h4><i>Regional Support Cadet Unit Central</i></h4>
 										<li>
-											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - July 2022 (expected)
+											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - July 2022
 											<ul>
 												<li>• Prepare NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
 												<li>• Log NES members in a database and follow-up on time sensitive letters</li>
@@ -114,7 +125,7 @@ class About extends Component {
 										<br /> <br />
 										<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
 										<li>
-											<i>Assistant Training Officer </i> • August 2019 - Present
+											<i>Assistant Training Officer, Level 1 Officer </i> • August 2019 - Present
 											<ul>
 												<li>• Responsible for acting as necessary to protect the health, welfare and safety of cadets at the squadron</li>
 												<br />
@@ -273,7 +284,7 @@ class About extends Component {
 										<br /><br />
 										<li>
 											<h3>Ismaili Volunteer Corps</h3>
-											<i>Member, Team Lead (2021 – Present)</i> • November 2006 - Present
+											<i>Member, Team Lead (2021 – 2022)</i> • November 2006 - Present
 											<ul>
 												<li>• Allocate and complete daily operational tasks for the Ismaili community center operations</li>
 												<br />

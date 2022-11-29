@@ -31,11 +31,11 @@ class About extends Component {
 								<article>
 									<header><h2 className="heading"><u>Skills</u></h2></header>
 									<ul>
-										<li>• Highly proficent in Java programming</li>
+										<li>• Highly proficent in Java and SQL programming</li>
 										<br />
 										<li>• Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
 										<br />
-										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Microsoft PowerApps, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Flash</li>
+										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Microsoft SharePoint, Microsoft PowerApps, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Animate</li>
 										<br />
 										<li>• Proficient in Linux/UNIX operating systems</li>
 										<br />
@@ -52,7 +52,7 @@ class About extends Component {
 											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
 											<ul>
 												<li>
-													<i>Relevant Courses:</i> Web Systems Development, Data Structures, Database Systems I, Introduction to C and UNIX
+													<i>Relevant Courses:</i> Web Systems Development, Data Structures, Database Systems I, Autonomous Mobile Robotics, Introduction to C and UNIX
 												</li>
 												<br /><br />
 												<li>
@@ -98,11 +98,11 @@ class About extends Component {
 										<br /> <br />
 										<h4><i>Regional Support Cadet Unit Central</i></h4>
 										<li>
-											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - July 2022
+											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - June 2022
 											<ul>
-												<li>• Prepare NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
-												<li>• Log NES members in a database and follow-up on time sensitive letters</li>
-												<li>• Prepare a monthly NES report sent to senior leadership for visibility on inactive members</li>
+												<li>• Prepared NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
+												<li>• Logged NES members in a database and followed up on time sensitive letters</li>
+												<li>• Prepared a monthly NES report sent to senior leadership for visibility on inactive members</li>
 											</ul>
 										</li>
 										<br /> <br />
@@ -236,8 +236,8 @@ class About extends Component {
 										</li>
 										<br /><br />
 										<li>
-											<h3>Ismaili Centre Toronto Audio/Visual Team</h3>
-											<i>Member</i> • September 2014 - Present
+											<h3>Ismaili Centre Toronto</h3>
+											<i>Audio/Visual Team Member</i> • September 2014 - Present
 											<ul>
 												<li>• Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
 												<br />
@@ -275,10 +275,11 @@ class About extends Component {
 										</li>
 										<br /><br />
 										<li>
-											<h3>Willowdale Jamatkhana Audio/Visual Team</h3>
-											<i>Lead</i> • July 2007 - Present
+											<h3>Willowdale Jamatkhana</h3>
+											<i>Audio/Visual Team Member, Team Lead (2015 – Present)</i> • July 2007 - Present
 											<ul>
 												<li>• Manage a team of 10 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. New Year’s event for over 1,000 guests)</li>
+												<li>• Schedule members to manage the system for daily prayers based on their availability</li>
 											</ul>
 										</li>
 										<br /><br />
@@ -307,11 +308,12 @@ class About extends Component {
 												<br />
 												<li>• Secured funding for large-scale events through Ryerson Student Union and private donors</li>
 											</ul>
+											<br />
 											<i>Treasurer</i> • April 2017 – June 2018, September 2019 – June 2020
 											<ul>
 												<li>• Manage funds used and received by the ISA</li>
 												<br />
-												<li>• Created yearly budgets and ensured that events are planned and implemented within the financial means of the club</li>
+												<li>• Created yearly budgets and ensured that events were planned and implemented within the financial means of the club</li>
 											</ul>
 										</li>
 										<br /><br />

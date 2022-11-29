@@ -35,7 +35,7 @@ class Programming extends Component {
 								<br />
 								<b>Github Link: <a href="https://github.com/rehanhajee/Website">Here</a></b>
 								<br />
-								<b>Live Demo: <a href="https://rehanhajee.me">Here</a></b>
+								<b>Live Demo: <a href="https://rehanhajee.com">Here</a></b>
 							</article>
 
 							<br />
@@ -44,11 +44,10 @@ class Programming extends Component {
 								<h2 className="programming-heading">Great Circle Distance Calculator</h2>
 								<h4><i>(HTML/CSS, JS)</i></h4>
 								This was an application that calculated the distance between two points. One of the points could either be your current location or a custom location. The starting location would be shown on a map. The program would use a web worker to calculate the distance, in kilometres, between the current location and a set of coordinates uploaded via a text file using the haversine formula. For each set of coordinates, the name of the stret, city, and country would be displayed.
-								{/*
 								<br />
-								<b>Github Link: <a href="#">Here</a></b>
+								<b>Github Link: <a href="https://github.com/rehanhajee/Great-Circle-Distance-Calc">Here</a></b>
 								<br />
-								<b>Live Demo: <a href="#">Here</a></b>*/}
+								<b>Live Demo: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 							</article>
 
 							<br />
@@ -57,11 +56,10 @@ class Programming extends Component {
 								<h2 className="programming-heading">Weather App</h2>
 								<h4><i>(HTML/CSS, JS)</i></h4>
 								This was a fully functional responsive Weather App that used AJAX with JSON and current weather data to display the weather for a city. The user can toggle between the metric and imperial system to get temperature and wind speed. Small graphics were also included, depending on the type of weather. The app displayed the current tremperature and weather conditions and a 5-day forecast displayed in 3-hour intervals.
-								{/*
 								<br />
-								<b>Github Link: <a href="#">Here</a></b>
+								<b>Github Link: <a href="https://github.com/rehanhajee/Weather-App">Here</a></b>
 								<br />
-								<b>Live Demo: <a href="#">Here</a></b>*/}
+								<b>Live Demo: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 							</article>
 							
 							<br />
@@ -83,11 +81,10 @@ class Programming extends Component {
 								<h2 className="programming-heading">Library Database Management System</h2>
 								<h4><i>(Java, SQL)</i></h4>
 								This was an application that allowed <i>members</i> to <i>borrow</i> and return various types of <i>books</i> from the library with a maximum of two <i>renewals</i> per item, and allowed <i>employees</i> to access the inventory of the <i>books</i>, <i>request</i> new <i>items</i> from <i>publishers</i>, and <i>manage</i> fines for <i>members</i>. We planned weekly meetings to receive and process feedback from the team to ensure the final product was satisfactory. The database was designed using SQL, with all tables normalized to BCNF. The UI was built using Java’s Swing Library.
-								{/*
 								<br />
-								<b>Github Link: <a href="#">Here</a></b>
+								<b>Github Link: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 								<br />
-								<b>Live Demo: <a href="#">Here</a></b>*/}
+								<b>Live Demo: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 							</article>
 
 							<br />
@@ -96,11 +93,10 @@ class Programming extends Component {
 								<h2 className="programming-heading">Resume Builder</h2>
 								<h4><i>(HTML/CSS, PHP)</i></h4>
 								This was a web application that assisted users to create their own resume with a given template. The site allowed users to send an email from the webiste to request more information. The fron-end was designed using HTML/CSS with React framework; back-end was designed using PHP with Laravel.
-								{/*
 								<br />
-								<b>Github Link: <a href="#">Here</a></b>
+								<b>Github Link: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 								<br />
-								<b>Live Demo: <a href="#">Here</a></b>*/}
+								<b>Live Demo: {/*<a href="#">Here</a>*/}Here</b> (Coming soon!)
 							</article>
 
 							<br />

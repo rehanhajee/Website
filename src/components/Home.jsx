@@ -25,7 +25,7 @@ class Home extends Component {
 								<br />
 								<h1><b>Hi, I'm Rehan Hajee!</b></h1>
 								<br />
-								<div className="centre">I am a Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
+								<div className="centre">I am a Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Toronto Metropolitan University (formally Ryerson University).</div>
 							</article>
 						</section>
 						<section>

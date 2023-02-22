@@ -7,361 +7,335 @@ import './About.css';
 
 class About extends Component {
 	componentDidMount() {
-        goToTop();
-    }
+		goToTop();
+	}
 	
-    render() {
-        return (
+	render() {
+		return (
 			<div className="background">
 				<Helmet>
 					<title>About - Rehan Hajee</title>
 				</Helmet>
 				<Container className="about">
 					<main>
-						<section>
-							<article>
-								<header><h1 className="heading"><b>I'm Rehan Hajee</b></h1></header>
-								<br />
-								<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Ryerson University.</div>
-							</article>
-						</section>
-						<section>
-							<div className="about-text">
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Skills</u></h2></header>
+						
+						<article>
+							<header><h1 className="heading"><b>I'm Rehan Hajee</b></h1></header>
+							<br />
+							<div className="centre">Cadet Instructor Cadre (CIC) Officer with a demonstrated history of working with the Canadian Cadet Organization (CCO). Skilled in Java, Adobe Photoshop, Adobe Premiere Pro, Unix, HTML, and Cascading Style Sheets (CSS). Strong professional with a Bachelor of Science - Honours (BSc - Hons) focused in Computer Science from Toronto Metropolitan University (formally Ryerson University).</div>
+						</article>
+
+						<article className='about-text'>
+							<hr />
+
+							<section>
+								<header><h2 className="heading"><u>Skills</u></h2></header>
+								<ul>
+									<li>Highly proficent in Java and SQL programming</li>
+									<li>Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
+									<li>Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Publisher), Microsoft Visio, Microsoft SharePoint, Microsoft PowerApps</li>
+									<li>Proficient in Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Animate</li>
+									<li>Proficient in Linux/UNIX operating systems</li>
+									<li>Frameworks/Technologies: Git, Angular.JS, Bootstrap, MySQL, React</li>
+								</ul>
+							</section>
+
+							<hr />
+
+							<section>
+								<header><h2 className="heading"><u>Education</u></h2></header>
+
+								<section>
+									<h3>Ryerson University</h3>
+									<h5><i>Bachelor of Science - Honours</i></h5>
+									<h5><i>Major in Computer Science</i>  &nbsp; September 2016 - June 2020</h5>
 									<ul>
-										<li>• Highly proficent in Java and SQL programming</li>
-										<br />
-										<li>• Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
-										<br />
-										<li>• Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Visio), Microsoft SharePoint, Microsoft PowerApps, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Animate</li>
-										<br />
-										<li>• Proficient in Linux/UNIX operating systems</li>
-										<br />
-										<li>• Frameworks/Technologies: Git, Angular.JS, Bootstrap, MySQL, React</li>
+										<li><i>Relevant Courses:</i> Web Systems Development, Data Structures, Database Systems I, Autonomous Mobile Robotics, Introduction to C and UNIX</li>
+										<li><i>Projects:</i> Can be found <a href="/Programming">here</a>. </li>
+										<li><i>Awards:</i> Entrance Scholarship, Dean's List</li>
+										<li><i>Activities:</i> RIMSA Student Group, Ryerson Tech Society</li>
 									</ul>
-								</article>
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Education</u></h2></header>
-									<ul>
-										<li>
-											<h3>Ryerson University</h3>
-											<i>Bachelor of Science - Honours</i>
-											<br /><i>Major in Computer Science</i> • September 2016 - June 2020
-											<ul>
-												<li>
-													<i>Relevant Courses:</i> Web Systems Development, Data Structures, Database Systems I, Autonomous Mobile Robotics, Introduction to C and UNIX
-												</li>
-												<br /><br />
-												<li>
-													<i>Projects:</i> Can be found <a href="/Programming">here</a>.
-												</li>
-												<br /><br />
-												<li>
-													<i>Awards:</i> Entrance Scholarship, Dean's List
-												</li>
-												<br /><br />
-												<li>
-													<i>Activities:</i> RIMSA Student Group, Ryerson Tech Society
-												</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Don Mills Collegiate Institute</h3>
-											<i>Ontario Secondary School Diploma, Gifted Intensive Program</i> • September 2012 - June 2016
-											<ul>
-												<li><i>Awards:</i> Ontario Scholar</li>
-												<br /><br />
-												<li><i>Activities:</i> Co-President of DMCI Stage Crew, Member of Super Wacky About Tech (SWAT) Team, Eco Team, French Club, Library Helper</li>
-											</ul>
-										</li>
-									</ul>
-								</article>
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Work Experience</u></h2></header>
-									<ul>
-										<h3>Canadian Armed Forces</h3>
-										<h4><i>Blackdown Cadet Training Centre</i></h4>
-										<li>
-											<i>Survival Instructor Course (SIC) Logistics Officer, Flight Commander</i> • June 2022 - August 2022
-											<ul>
-												<li>• Identified and managed all material requirements for SIC and acting as the OPI for all logistical support</li>
-												<li>• Issued, retrieved, and maintained required materials to and from SIC personnel and ensured that all non-serviceable materials were marked accordingly</li>
-												<li>• Monitored training conditions and advised Course Commander, as required</li>
-												<li>• Provided mentorship and guidance to Staff Cadets to allow them to practice leadership and management skills</li>
-											</ul>
-										</li>
-										<br /> <br />
-										<h4><i>Regional Support Cadet Unit Central</i></h4>
-										<li>
-											<i>J1 HR Non-Effective Strength (NES) Clerk</i> • August 2021 - June 2022
-											<ul>
-												<li>• Prepared NES and Notice of Intent (NOI) letters for members based on the NES policy and process</li>
-												<li>• Logged NES members in a database and followed up on time sensitive letters</li>
-												<li>• Prepared a monthly NES report sent to senior leadership for visibility on inactive members</li>
-											</ul>
-										</li>
-										<br /> <br />
-										<h4><i>Regional Support Cadet Unit Central</i></h4>
-										<li>
-											<i>J1 Staffing Clerk</i> • May 2021 - August 2021
-											<ul>
-												<li>• Screened and hired staff cadets and adult staff for summer training ensuring that all employment conditions were met</li>
-												<li>• Accurately enter all applicable applicant data into the Cadet Training Centre (CTC) Staffing database, handled confidential information</li>
-											</ul>
-										</li>
-										<br /> <br />
-										<h4><i>National Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
-										<li>
-											<i>LOO4 - EN-A4 Air Training Team Leader </i> • June 2020 - August 2020
-											<ul>
-												<li>• Facilitated the production of accessible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
-											</ul>
-										</li>
-										<br /> <br />
-										<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
-										<li>
-											<i>Assistant Training Officer, Level 1 Officer </i> • August 2019 - Present
-											<ul>
-												<li>• Responsible for acting as necessary to protect the health, welfare and safety of cadets at the squadron</li>
-												<br />
-												<li>• Assist Training Officer to ensure weekly training gets completed successfully</li>
-											</ul>
-										</li>
-										<br /><br />
-										<h3>Department of National Defence</h3>
-										<h4><i>Trenton Cadet Training Centre</i></h4>
-										<li>
-											<i>Drill and Ceremonial Course Administration Officer</i> • June 2019 - August 2019
-											<ul>
-												<li>• Acted as necessary to protect the health, welfare and safety of the Drill and Ceremonial course cadets and staff cadets</li>
-												<br />
-												<li>• Ensured any required forms are completed accurately and correctly</li>
-												<br />
-												<li>• Assisted the Training Centre Administration Officer with Training Centre-based tasks</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<i>General Training Course Flight Instructor</i> • July 2018 - August 2018
-											<ul>
-												<li>• Acted as necessary to protect the health, welfare and safety of the General Training course cadets and staff cadets</li>
-												<br />
-												<li>• Ensured a steady stream of information to the flight commander, staff cadets, and course cadets</li>
-												<br />
-												<li>• Assisted in completing end of course Training Reports and analysis of instruction, training, conduct, and recommendations for improvements.</li>
-											</ul>
-										</li>
-										<br /><br />
-										<h3>Royal Canadian Air Cadets</h3>
-										<h4><i>Trenton Cadet Training Centre</i></h4>
-										<li>
-											<i>General Training Sergeant</i> • July 2017 - August 2017
-											<br />
-											<ul>
-												<li>• Acted as necessary to protect the health, welfare and safety of all General Training course cadets</li>
-												<br />
-												<li>• Supervised cadets during all scheduled activities and participate when appropriate</li>
-												<br />
-												<li>• Submitted recommendations for end of course Training Reports</li>
-												<br />
-												<li>• Instructed cadets on cadet-related lessons, such as Aviation, Drill, Citizenship, and Aerodrome Operations</li>
-												<br />
-											</ul>
-										</li>
-										<br /><br />
-										<h4><i>Canadore Cadet Training Centre</i></h4>
-										<li>
-											<i>Flight NCO - Advanced Aviation Technology Course</i> • July 2016 - August 2016
-											<br />
-											<ul>
-												<li>• Assisted and supervised course cadets and maintaining a log stating problems and solutions</li>
-												<br />
-												<li>• Assisted in supervising and instructing the Flag Party</li>
-												<br />
-												<li>• Assisted in the development of cadet course reports</li>
-												<br />
-												<li>• Submitted recommendations for end of summer Training Reports</li>
-											</ul>
-										</li>
-										
-										<br /><br />
-										<h3>Metroland</h3>
-										<li>
-											<i>Newspaper Carrier</i> • November 2013 - April 2014
-											<br />
-											<ul>
-												<li>• Delivered newspapers and flyers in my neighbourhood</li>
-											</ul>
-											
-										</li>
-									</ul>
-								</article>
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Volunteer Experience</u></h2></header>
-									<ul>
-										<li>
-											<h3>Aga Khan Economic Planning Board for Canada</h3>
-											<i>Ismaili Business Support Network (IBSN) CRM Lead</i> • October 2021 - Present
-											<ul>
-												<li>• Maintain the IBSN CRM PowerApps app as needed</li>
-												<br />
-												<li>• Update the User Interface and Experience to ensure important information is easily accessible</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Ryerson University</h3>
-											<i>Science Orientation Operations Team Member</i> • August 2018
-											<ul>
-												<li>• Organized an activity for the Science Orientation 2018</li>
-												<br />
-												<li>• Assisted other members when required</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Ontario Council for Technological Education</h3>
-											<i>Co-editor</i> • March 2016 - May 2016
-											<ul>
-												<li>• Edited a video in a 60-part safety video series for the province of Ontario</li>
-												<br />
-												<li>• Safety demonstrator on-camera for three videos</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Ismaili Centre Toronto</h3>
-											<i>Audio/Visual Team Member</i> • September 2014 - Present
-											<ul>
-												<li>• Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
-												<br />
-												<li>• Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Ismaili Safety Team</h3>
-											<i>First Aid Member</i> • December 2013 - Present
-											<ul>
-												<li>• Provide First Aid at sporting events and community events for up to 20 000 people.</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Royal Canadian Air Cadets</h3>
-											<i>166 Bulldog Royal Canadian Air Cadet Squadron</i>
-											<br />
-											<i>Warrant Officer Second Class, Deputy Squadron Commander, Administration Warrant Officer</i> • January 2011 - June 2017
-											<br />
-											<ul>
-												<li>• Ensured all cadets receive a “call out” with important upcoming information</li>
-												<br />
-												<li>• Prepared weekly emails to instructors to inform them what to teach</li>
-												<br />
-												<li>• Created documents from scratch (e.g. "Call out" spreadsheet, a chart for tagging (fundraising) with locations, program for the final parade)</li>
-												<br />
-												<li>• Instructed lessons on Citizenship, Drill, Leadership, and Survival</li>
-												<br />
-												<li>• Coached the Flag Party, as the Flag Party Commander, to ensure drill is sharp and in time (member from 2012-2016, commander from 2015-2016)</li>
-												<br />
-												<li>• Was a member of the Squadron Drill Without Arms Team (2012-2016), which is an elite group of 16 cadets who rehearse regularly to put together a silent drill routine for competitions</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Willowdale Jamatkhana</h3>
-											<i>Audio/Visual Team Member, Team Lead (2015 – Present)</i> • July 2007 - Present
-											<ul>
-												<li>• Manage a team of 10 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. New Year’s event for over 1,000 guests)</li>
-												<li>• Schedule members to manage the system for daily prayers based on their availability</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Ismaili Volunteer Corps</h3>
-											<i>Member, Team Lead (2021 – 2022)</i> • November 2006 - Present
-											<ul>
-												<li>• Allocate and complete daily operational tasks for the Ismaili community center operations</li>
-												<br />
-												<li>• Helping the sick, elderly, and disabled members of the Toronto Ismaili community</li>
-												<br />
-												<li>• Facilitate large-scale events such as the World Partnership Walk, a fundraising event with 40,000 participants</li>
-											</ul>
-										</li>
-									</ul>
-								</article>
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Extra Curricular Activities</u></h2></header>
-									<ul>
-										<li>
-											<h3>Ryerson Ismaili Muslim Student Association (RIMSA)</h3>
-											<i>President</i> • June 2018 - June 2019
-											<ul>
-												<li>•	Liaised between RIMSA members and executive members to ensure events were run smoothly</li>
-												<br />
-												<li>• Secured funding for large-scale events through Ryerson Student Union and private donors</li>
-											</ul>
-											<br />
-											<i>Treasurer</i> • April 2017 – June 2018, September 2019 – June 2020
-											<ul>
-												<li>• Manage funds used and received by the ISA</li>
-												<br />
-												<li>• Created yearly budgets and ensured that events were planned and implemented within the financial means of the club</li>
-											</ul>
-										</li>
-										<br /><br />
-										<li>
-											<h3>Don Mills CI Stage Crew</h3>
-											<i>Co-President</i> • November 2013 - June 2016
-											<ul>
-												<li>• Student-run organization which assistted in most Audio/Visual components for school events</li>
-												<br />
-												<li>• Made sure students are excused if they were planning on being absent for a class to assist with an event</li>
-												<br />
-												<li>• Trained new members with the equipment</li>
-											</ul>
-										</li>
-									</ul>
-								</article>
-								<hr />
-								<article>
-									<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
-									<ul>
-										<li>• First Aid level 'C' with AED training (2022)</li>
-										<br />
-										<li>• Workplace Hazardous Materials Information System (WHMIS) 2015 Orientation (2022)</li>
-										<br />
-										<li>• Psychological First Aid - Self-Care (2021)</li>
-										<br />
-										<li>• Psychological First Aid - Caring for Others (2021)</li>
-										<br />
-										<li>• Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
-										<br />
-										<li>• Ontario Volunteer Service Award – Youth (2017)</li>
-										<br />
-										<li>• Restricted Operator’s Certificate – Aeronautical (2015)</li>
-										<br />
-										<li>• Community Service Honours, Level 2 Gold, Ismaili Students Total Achievement and Recognition (ISTAR) Awards (2015)</li>
-										<br />
-										<li>• Royal Canadian Air Cadet Service Medal for completing four continuous years with the Royal Canadian Air Cadets (2015), and two bars for completing two additional years (2016, 2017)</li>
-										<br />
-										<li>• Duke of Edinburgh Bronze Award for involvement in sports, music and community service (2013)</li>
-									</ul>
-								</article>
-							</div>
+								</section>
 								
-						</section>
+								<section>
+									<h3>Don Mills Collegiate Institute</h3>
+									<h5><i>Ontario Secondary School Diploma, Gifted Intensive Program</i> &nbsp; September 2012 - June 2016</h5>
+									<ul>
+										<li><i>Awards:</i> Ontario Scholar</li>
+										<li><i>Activities:</i> Co-President of DMCI Stage Crew, Member of Super Wacky About Tech (SWAT) Team, Eco Team, French Club, Library Helper</li>
+									</ul>
+								</section>
+								
+							</section>
+
+							<hr />
+
+							<section>
+								<header><h2 className="heading"><u>Work Experience</u></h2></header>
+								
+								<section>
+									<header><h3>Canadian Armed Forces</h3></header>
+									<section>
+										<h4><i>Blackdown Cadet Training Centre (CTC)</i></h4>
+										<h5><i>Survival Instructor Course (SIC) Logistics Officer, Flight Commander</i> &nbsp; June 2022 - August 2022</h5>
+										<ul>										
+											<li>Identified and managed all material requirements for SIC and acting as the OPI for all logistical support</li>
+											<li>Issued, retrieved, and maintained required materials to and from SIC personnel and ensured that all non-serviceable materials were marked accordingly</li>
+											<li>Monitored training conditions and advised Course Commander, as required</li>
+											<li>Provided mentorship and guidance to Staff Cadets to allow them to practice leadership and management skills</li>
+											<li>Assisted with the collection, processing, and organization of Blackdown CTC’s After Action Report and Lessons Learned</li>
+										</ul>
+									</section>
+
+									<section>
+										<h4><i>Regional Support Cadet Unit Central</i></h4>
+										<h5><i>J1 HR Non-Effective Strength (NES) Clerk</i> &nbsp; August 2021 - June 2022</h5>
+										<ul>
+											<li>Logged NES members and kept track of outgoing NES/NOI Letters (date sent, tracking numbers) and created time-based queries as letters are time sensitive</li>
+											<li>Prepared a monthly NES report sent to Formation (Senior Leadership) for visibility on NES members</li>
+											<li>Started the archive of terminated Civilian Instructor files</li>
+											<li>Assisted with filing Route Letters and Pay Sheets accordingly</li>
+											<li>Co-created the NES Database and maintained it to ensure information was always up to date</li>
+										</ul>
+										<h5><i>J1 Staffing Clerk</i> &nbsp; May 2021 - August 2021</h5>
+										<ul>
+											<li>Screened and hired staff cadets and adult staff, ensuring that all employment conditions were met</li>
+											<li>Accurately entered all applicable applicant data into the Cadet Training Centre (CTC) Staffing database, handled confidential information</li>
+											<li>Assisted in the production of RL packages for Adult Staff (vCTC) and Staff Cadets (vCTC + summer CAP) and are submitted to PSS</li>
+											<li>Compiled a list of references referring to Civilian Volunteers from CATOs, Army/Navy/Air Cadet Leagues, Natl CJCR Sp Gp Orders, and QR&O (Cadets)</li>
+											<li>Assisted with filing Route Letters and Pay Sheets accordingly</li>
+											<li>Compared Police Record Check / Vulnerable Sector Screening (PRC/VSS) and Reliability Status (RS) dates for all members in MonitorMASS to information in the Program Staffing Database and noted discrepancies</li>
+											<li>Ensured members’ PRC/VSS were updated accordingly and provided the appropriate agency’s request letters/forms</li>
+											<li>Assisted J1 Recruiting with sending out Phase One enrolment packages</li>
+										</ul>
+									</section>
+
+									<section>
+										<h4><i>National Cadet and Junior Canadian Rangers (CJCR) Support Group</i></h4>
+										<h5><i>LOO4 - EN-A4 Air Training Team Leader </i> &nbsp; June 2020 - August 2020</h5>
+										<ul>
+											<li>Facilitated the production of accessible, organized, and standardized lesson plans and training aids for all applicable corps and squadron cadet training classes</li>
+											<li>Ensured subordinates were checking in regularly to ensure their assigned tasks were completed on time</li>
+										</ul>
+									</section>
+
+									<section>
+										<h4><i>166 Royal Canadian Air Cadet Squadron</i></h4>
+										<h5><i>Assistant Training Officer, Level 3 Officer </i> &nbsp; August 2019 - Present</h5>
+										<ul>
+											<li>Assist Training Officer to ensure weekly training gets completed successfully</li>
+											<li>Evaluate Instructors to ensure they are meeting or exceeding the standard, provide feedback as required</li>
+											<li>Update the Squadron's Microsoft SharePoint pages to prioritize important information</li>
+											<li>Responsible for acting as necessary to protect the health, welfare and safety of cadets at the squadron</li>
+										</ul>
+									</section>	
+								</section>
+
+								<section>
+									<header><h3>Department of National Defence</h3></header>
+									
+									<section>
+										<h4><i>Trenton Cadet Training Centre</i></h4>
+										<h5><i>Drill and Ceremonial Course Administration Officer</i> &nbsp; June 2019 - August 2019</h5>
+										<ul>
+											<li>Ensured all required forms are completed accurately and correctly</li>
+											<li>Assisted the Cadet Training Centre Administration Officer with Training Centre-based tasks</li>
+											<li>Acted as necessary to protect the health, welfare and safety of the Drill and Ceremonial course cadets and staff cadets</li>
+										</ul>
+									
+										<h5><i>General Training Course Flight Instructor</i> &nbsp; July 2018 - August 2018</h5>
+										<ul>
+											<li>Ensured a steady stream of information to the flight commander, staff cadets, and course cadets</li>
+											<li>Assisted in completing end of course Training Reports and analysis of instruction, training, conduct, and recommendations for improvements.</li>
+											<li>Acted as necessary to protect the health, welfare and safety of the General Training course cadets and staff cadets</li>
+										</ul>
+									</section>
+									
+								</section>
+
+								<section>
+
+									<header><h3>Royal Canadian Air Cadets</h3></header>
+
+									<section>
+										<h4><i>Trenton Cadet Training Centre</i></h4>
+										<h5><i>General Training Sergeant</i> &nbsp; July 2017 - August 2017</h5>
+										<ul>
+											<li>Submitted recommendations for end of course Training Reports</li>
+											<li>Instructed cadets on cadet-related lessons, such as Aviation, Drill, Citizenship, and Aerodrome Operations</li>
+											<li>Supervised cadets during all scheduled activities and participate when appropriate</li>
+											<li>Acted as necessary to protect the health, welfare and safety of all General Training course cadets</li>
+										</ul>
+									</section>
+
+									<section>
+										<h4><i>Canadore Cadet Training Centre</i></h4>
+										<h5><i>Flight NCO - Advanced Aviation Technology Course</i> &nbsp; July 2016 - August 2016</h5>
+										<ul>
+											<li>Assisted and supervised course cadets and maintaining a log stating problems and solutions</li>
+											<li>Assisted in supervising and instructing the Flag Party</li>
+											<li>Assisted in the development of cadet course reports</li>
+											<li>Submitted recommendations for end of summer Training Reports</li>
+										</ul>
+									</section>
+
+								</section>
+
+								<section>
+
+									<header><h3>Metroland</h3></header>
+									<h5><i>Newspaper Carrier</i> &nbsp; November 2013 - April 2014</h5>
+									<ul>
+										<li>Delivered newspapers and flyers to proper addresses in my neighbourhood while meeting specific and unique cutomer demands and requests</li>
+									</ul>
+
+								</section>
+
+							</section>
+
+							<hr />
+
+							<section>
+
+								<header><h2 className="heading"><u>Volunteer Experience</u></h2></header>
+								
+								<section>
+									<h3>Aga Khan Economic Planning Board for Canada</h3>
+									<h5><i>Ismaili Business Support Network (IBSN) CRM Lead</i> &nbsp; October 2021 - Present</h5>
+									<ul>
+										<li>Maintain the IBSN CRM PowerApps app as needed</li>
+										<li>Update the User Interface and Experience to ensure important information is easily accessible</li>
+									</ul>
+								</section>
+								
+								<section>
+									<h3>Ryerson University</h3>
+									<h5><i>Science Orientation Operations Team Member</i> &nbsp; August 2018</h5>
+									<ul>
+										<li>Organized an activity for the Science Orientation 2018</li>
+										<li>Assisted other members when required</li>
+									</ul>
+								</section>
+								
+								<section>
+									<h3>Ontario Council for Technological Education</h3>
+									<h5><i>Co-editor</i> &nbsp; March 2016 - May 2016</h5>
+									<ul>
+										<li>Edited a video in a 60-part safety video series for the province of Ontario</li>
+										<li>Safety demonstrator on-camera for three videos</li>
+									</ul>
+								</section>
+								
+								<section>
+									<h3>Ismaili Centre Toronto</h3>
+									<h5><i>Audio/Visual Team Member</i> &nbsp; September 2014 - Present</h5>
+									<ul>
+										<li>Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
+										<li>Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
+									</ul>
+								</section>
+								
+								<section>
+									<h3>Ismaili Safety Team</h3>
+									<h5><i>First Aid Member</i> &nbsp; December 2013 - Present</h5>
+									<ul>
+										<li>Provide First Aid at sporting events and community events for up to 20 000 people.</li>
+									</ul>
+								</section>
+								
+								<section>
+									<h3>Royal Canadian Air Cadets</h3>
+									<h4><i>166 Bulldog Royal Canadian Air Cadet Squadron</i></h4>
+									<h5><i>Warrant Officer Second Class, Deputy Squadron Commander, Administration Warrant Officer</i> &nbsp; January 2011 - June 2017</h5>
+									<ul>
+										<li>Ensured all cadets receive a “call out” with important upcoming information</li>
+										<li>Prepared weekly emails to instructors to inform them what to teach</li>
+										<li>Created documents from scratch (e.g. "Call out" spreadsheet, a chart for tagging (fundraising) with locations, program for the final parade)</li>
+										<li>Instructed lessons on Citizenship, Drill, Leadership, and Aircrew Survival</li>
+										<li>Coached the Flag Party, as the Flag Party Commander, to ensure drill is sharp and in time (Member from 2012-2016, Commander from 2015-2016)</li>
+										<li>Was a member of the Squadron Drill Without Arms Team (2012-2016), which is an elite group of 16 cadets who rehearse regularly to put together a silent drill routine for competitions</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Willowdale Jamatkhana</h3>
+									<h5><i>Audio/Visual Team Member, Team Lead (2015 – Present)</i> &nbsp; July 2007 - Present</h5>
+									<ul>
+										<li>Manage a team of 15 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. New Year’s event for over 1,000 guests)</li>
+										<li>Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
+										<li>Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
+										<li>Schedule members to manage the system for daily prayers based on their availability</li>
+										<li>Maintain inventory of equipment, keeping track of who has requested what equipment</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Ismaili Volunteer Corps</h3>
+									<h5><i>Member, Team Lead (2021 – 2022)</i> &nbsp; November 2006 - Present</h5>
+									<ul>
+										<li>Allocate and complete daily operational tasks for the Ismaili community centre operations</li>
+										<li>Helping the sick, elderly, and disabled members of the Toronto Ismaili community</li>
+										<li>Facilitate large-scale events such as the World Partnership Walk, a fundraising event with 40,000 participants</li>
+									</ul>
+								</section>
+								
+							</section>
+
+							<hr />
+
+							<section>
+								<header><h2 className="heading"><u>Extra Curricular Activities</u></h2></header>
+								<section>
+									<h3>Ryerson Ismaili Muslim Student Association (RIMSA)</h3>
+									<h5><i>President</i> &nbsp; June 2018 - June 2019</h5>
+									<ul>
+										<li>Liaised between RIMSA members and executive members to ensure events were run smoothly</li>
+										<li>Secured funding for large-scale events through Ryerson Student Union and private donors</li>
+									</ul>
+									<h5><i>Treasurer</i> &nbsp; April 2017 – June 2018, September 2019 – June 2020</h5>
+									<ul>
+										<li>Manage funds used and received by the ISA</li>
+										<li>Created yearly budgets and ensured that events were planned and implemented within the financial means of the club</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Don Mills CI Stage Crew</h3>
+									<h5><i>Co-President</i> &nbsp; November 2013 - June 2016</h5>
+									<ul>
+										<li>Student-run organization which assisted in most Audio and Visual components for school events</li>
+										<li>Ensured students were marked excused for a class if they were assisting with an event</li>
+										<li>Trained new members with the audio and lighting equipment</li>
+									</ul>
+								</section>
+
+							</section>
+
+							<hr />
+
+							<section>
+								<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
+								<ul>
+									<li>First Aid level 'C' with AED training (2022)</li>
+									<li>Workplace Hazardous Materials Information System (WHMIS) 2015 Orientation (2022)</li>
+									<li>Psychological First Aid - Self-Care (2021)</li>
+									<li>Psychological First Aid - Caring for Others (2021)</li>
+									<li>Warrant Officer Second Class Cynthia Tsang Memorial Leadership Award for outstanding leadership skills and inspiring junior cadets (2017)</li>
+									<li>Ontario Volunteer Service Award – Youth (2017)</li>
+									<li>Restricted Operator’s Certificate – Aeronautical (2015)</li>
+									<li>Community Service Honours, Level 2 Gold, Ismaili Students Total Achievement and Recognition (ISTAR) Awards (2015)</li>
+									<li>Royal Canadian Air Cadet Service Medal for completing four continuous years with the Royal Canadian Air Cadets (2015), and two bars for completing two additional years (2016, 2017)</li>
+									<li>Duke of Edinburgh Bronze Award for involvement in sports, music and community service (2013)</li>
+								</ul>
+							</section>
+
+						</article>
+
 					</main>
+
 				</Container>
 			</div>
-        );
+		);
 	}
 }
 

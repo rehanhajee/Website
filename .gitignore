@@ -30,6 +30,8 @@ config.js
 
 Ignore/*
 
+Default/
+
 HowToRun
 
 src/components/labs/*

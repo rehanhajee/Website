@@ -16,13 +16,24 @@ h3, h4 {
 	margin: 0;
 }
 
-li {
+h5, li {
     font-size: 18px;
-    display: inline-block;
+}
+
+li:not(:last-child) {
+	margin-bottom: 0.5em;
+}
+
+li:last-child {
+	margin-bottom: 1.5em;
 }
 
 li>a {
 	font-weight: bold;
+}
+
+section>section {
+	padding-left: 40px;
 }
 
 .centre {

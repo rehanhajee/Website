@@ -93,7 +93,7 @@ class About extends Component {
 										<ul>
 											<li>Logged NES members and kept track of outgoing NES/NOI Letters (date sent, tracking numbers) and created time-based queries as letters are time sensitive</li>
 											<li>Prepared a monthly NES report sent to Formation (Senior Leadership) for visibility on NES members</li>
-											<li>Started the archive of terminated Civilian Instructor files</li>
+											<li>Initiated the archival process of previously employed Civilian Instructors alphabetically into boxes, with an included table of contents</li>
 											<li>Assisted with filing Route Letters and Pay Sheets accordingly</li>
 											<li>Co-created the NES Database and maintained it to ensure information was always up to date</li>
 										</ul>

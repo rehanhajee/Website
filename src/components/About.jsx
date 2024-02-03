@@ -46,7 +46,7 @@ class About extends Component {
 								<header><h2 className="heading"><u>Education</u></h2></header>
 
 								<section>
-									<h3>Ryerson University</h3>
+									<h3>Toronto Metropolitan University (formally Ryerson University)</h3>
 									<h5><i>Bachelor of Science - Honours</i></h5>
 									<h5><i>Major in Computer Science</i>  &nbsp; September 2016 - June 2020</h5>
 									<ul>
@@ -76,6 +76,25 @@ class About extends Component {
 								<section>
 									<header><h3>Canadian Armed Forces</h3></header>
 									<section>
+										<h4><i>Regional Support Cadet Unit (Central)</i></h4>
+										<h5><i>J1 Sr HR Specialist (Program Staffing)</i> &nbsp; September 2023 - Present</h5>
+										<ul>
+											<li>Supervise the performance and efficiency of the HR Specialist (CTC Staffing) Clerks</li>
+											<li>Manage Civilian Instructor and Civilian Volunteer files for the Region</li>
+											<li>Prepare, distribute Class B employment opportunity messages using REO for employment opportunities, receive applications for Class B employment and prepare files for review by the Review Board Secretary</li>
+											<li>Coordinate the selection of adult staff and staff cadets for summer employment</li>
+											<li>Enter data into CFTPO during the tasking process, conduct appropriate staff checks for taskings</li>
+											<li>Recommend procedural and functional processes to improve personnel selection</li>
+										</ul>
+										<h5><i>J4 Summer Movements Clerk</i> &nbsp; April 2023 - September 2023</h5>
+										<ul>
+											<li>Set up Travel Identification Numbers (TINs) for Staff Cadets and Course Cadets that would be travelling via train, plane, or other commercial methods</li>
+											<li>Organized travel for over 300 Cadets travelling across the country, ensuring they arrived based on the Cadet Training Centre (CTC) Policies and Procedures for Out of Region Cadets</li>
+											<li>Reconciled credit card statements to ensure authorized purchases were reflected accurately, noted and informed all descrepencies that needed investigating to my supervisor</li>
+										</ul>
+									</section>
+
+									<section>
 										<h4><i>Blackdown Cadet Training Centre (CTC)</i></h4>
 										<h5><i>Survival Instructor Course (SIC) Logistics Officer, Flight Commander</i> &nbsp; June 2022 - August 2022</h5>
 										<ul>										
@@ -88,7 +107,7 @@ class About extends Component {
 									</section>
 
 									<section>
-										<h4><i>Regional Support Cadet Unit Central</i></h4>
+										<h4><i>Regional Support Cadet Unit (Central)</i></h4>
 										<h5><i>J1 HR Non-Effective Strength (NES) Clerk</i> &nbsp; August 2021 - June 2022</h5>
 										<ul>
 											<li>Logged NES members and kept track of outgoing NES/NOI Letters (date sent, tracking numbers) and created time-based queries as letters are time sensitive</li>

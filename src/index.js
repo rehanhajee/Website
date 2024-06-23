@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 import { getDatabase } from "firebase/database";
 
 
@@ -31,11 +31,8 @@ var firebaseConfig = {
   
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
-const analytics = getAnalytics();
-const database = getDatabase();
-
-
-
+//const analytics = getAnalytics();
+const database = getDatabase(firebaseApp);
 
 ReactDOM.render(
     <BrowserRouter>

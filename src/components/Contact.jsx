@@ -29,26 +29,26 @@ class Contact extends Component {
 									<br />
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/facebook-brands.svg')} alt="Facebook logo" />
+										<Image className="socialMedia" src={require('../images/facebook-brands.svg').default} alt="Facebook logo" />
 										<Button variant="link" href="https://www.facebook.com/rehan.hajee"><h4><b>FB/rehan.hajee</b></h4></Button>
 										<br />
 									</section>
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/linkedin-brands.svg')} alt="LinkedIn logo" />
+										<Image className="socialMedia" src={require('../images/linkedin-brands.svg').default} alt="LinkedIn logo" />
 										<Button variant="link" href="https://www.linkedin.com/in/rehan-hajee/"><h4><b>LI/rehan-hajee</b></h4></Button>
 										<br />
 									</section>
 									<section>
 										<br />
-										<Image className="socialMedia" src={require('../images/email.svg')} alt="Email" />
+										<Image className="socialMedia" src={require('../images/email.svg').default} alt="Email" />
 										<Button variant="link" href="mailto:rehan@rehanhajee.com"><h4><b>Email</b></h4></Button>
 										<br />
 									</section>
 									<section>
 										<br />
 										
-										<Image className="socialMedia github" src={require('../images/github-brands.svg')} alt="Github logo" />
+										<Image className="socialMedia github" src={require('../images/github-brands.svg').default} alt="Github logo" />
 										<Button variant="link" href="https://github.com/rehanhajee/"><h4><b>Github/rehanhajee</b></h4></Button>
 										<br />
 									</section>

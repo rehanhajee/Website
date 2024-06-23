@@ -77,7 +77,7 @@ class About extends Component {
 									<header><h3>Canadian Armed Forces</h3></header>
 									<section>
 										<h4><i>Regional Support Cadet Unit (Central)</i></h4>
-										<h5><i>J1 HR Supervisor (Program Staffing),J1 Sr HR Admin (Program Staffing) </i> &nbsp; September 2023 - Present</h5>
+										<h5><i>J1 HR Supervisor (Program Staffing), J1 Sr HR Admin (Program Staffing) </i> &nbsp; September 2023 - Present</h5>
 										<ul>
 											<li>Supervise the performance and efficiency of the HR Specialist (CTC Staffing) Clerks</li>
 											<li>Manage Civilian Instructor and Civilian Volunteer files for the Region</li>

@@ -1,17 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 import './Footer.css';
 
-class Footer extends Component {
-	render() {
-		return (
-			<footer className="bg-dark centre">&copy; {this.getYear()}, Rehan Hajee</footer>
-		);
-	}
+function Footer() {
 	
-	getYear() {
-		return new Date().getFullYear();
-	}
+	return (
+		<footer className="bg-dark centre ">&copy; {new Date().getFullYear()}, Rehan Hajee</footer>
+	);
+	
+	
 }
 
 export default Footer;

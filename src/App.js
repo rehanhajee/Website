@@ -1,6 +1,11 @@
-import React, {Component} from 'react';
-import {BrowserRouter, Route, Switch} from "react-router-dom"; 
-import Particles from 'react-particles-js';
+import React, {useEffect, useState} from "react";
+import Particles, {initParticlesEngine} from "@tsparticles/react";
+import {loadFull} from "tsparticles";
+
+import {BrowserRouter, Route, Routes} from "react-router-dom"; 
+import "./App.css";
+import particlesOptions from "./particles.json";
+
 import CustomNavbar from './components/CustomNavbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -9,63 +14,40 @@ import Programming from './components/Programming';
 import Media from './components/Media';
 import Contact from './components/Contact';
 import Error from './components/Error';
-import Test from './components/Test';
 
+function App() {
+    const [init, setInit] = useState(false);
 
-import './App.css';
+    useEffect(() => {
+        if (init) {
+            return;
+        }
 
-class App extends Component {
-	render() {
-		return (
-			<main>
-				<BrowserRouter>
-					<article>
-					<CustomNavbar />
-					<Particles
-						params={{ 
-							"particles": {
-								"line_linked": {
-									"color":"#FFFFFF"
-								},
-								"number": {
-									"value": 100
-								},
-								"size": {
-									"value": 5
-								}
-							},
-							"interactivity": {
-								"detect_on": "window",
-								"events": {
-									"onhover": {
-										"enable": true, 
-										"mode": "repulse"
-									}
-								}
-							}
-						}}
-						style={{
-							width: '100%',
-							zIndex: '-999', 
-							position: 'fixed',
-							background: '#7a7a7a'
-						}} 
-						/>
-						<Switch className="App">
-							<Route exact path="/" component={Home}/>
-							<Route exact path="/About" component={About}/>
-							<Route path="/Programming" component={Programming}/>
-							<Route path="/Contact" component={Contact}/>
-							<Route path="/Media" component={Media}/>
-							<Route path="/Test" component={Test}/>
-							<Route path="" component={Error}/>
-						</Switch>
-						<Footer />
-					</article>
-				</BrowserRouter>
-			</main>
-		);
-	}
+        initParticlesEngine(async (engine) => {
+            await loadFull(engine);
+        }).then(() => {
+            setInit(true);
+        });
+    });
+
+    return (
+        <div className="App">
+            {init && <Particles options={particlesOptions}/>}
+            <BrowserRouter>
+                <CustomNavbar />
+                <Routes className="App">
+                    <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/About" element={<About/>}/>
+                    <Route path="/Programming" element={<Programming/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
+                    <Route path="/Media" element={<Media/>}/>
+                    <Route path="" element={<Error/>}/>
+                </Routes>
+                <Footer />
+            </BrowserRouter>
+
+        </div>
+    );
 }
 
 export default App;

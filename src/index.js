@@ -2,8 +2,7 @@ import 'react-app-polyfill/ie11';
 import 'core-js/stable';
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -34,11 +33,11 @@ const firebaseApp = initializeApp(firebaseConfig);
 //const analytics = getAnalytics();
 const database = getDatabase(firebaseApp);
 
-ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>,
-    document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change

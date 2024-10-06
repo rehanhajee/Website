@@ -1,10 +1,11 @@
-import React, {useEffect, useState} from "react";
-import Particles, {initParticlesEngine} from "@tsparticles/react";
-import {loadFull} from "tsparticles";
+import {useEffect, useState} from 'react';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'; 
 
-import {BrowserRouter, Route, Routes} from "react-router-dom"; 
-import "./App.css";
-import particlesOptions from "./particles.json";
+import Particles, {initParticlesEngine} from '@tsparticles/react';
+import {loadFull} from 'tsparticles';
+
+import './App.css';
+import particlesOptions from './particles.json';
 
 import CustomNavbar from './components/CustomNavbar';
 import Footer from './components/Footer';
@@ -31,17 +32,17 @@ function App() {
     });
 
     return (
-        <div className="App">
+        <div className='App'>
             {init && <Particles options={particlesOptions}/>}
             <BrowserRouter>
                 <CustomNavbar />
-                <Routes className="App">
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/About" element={<About/>}/>
-                    <Route path="/Programming" element={<Programming/>}/>
-                    <Route path="/Contact" element={<Contact/>}/>
-                    <Route path="/Media" element={<Media/>}/>
-                    <Route path="" element={<Error/>}/>
+                <Routes className='App'>
+                    <Route exact path='/' element={<Home/>}/>
+                    <Route exact path='/About' element={<About/>}/>
+                    <Route path='/Programming' element={<Programming/>}/>
+                    <Route path='/Contact' element={<Contact/>}/>
+                    <Route path='/Media' element={<Media/>}/>
+                    <Route path='' element={<Error/>}/>
                 </Routes>
                 <Footer />
             </BrowserRouter>

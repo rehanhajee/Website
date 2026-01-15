@@ -29,8 +29,8 @@ function About() {
 						<section>
 							<header><h2 className="heading"><u>Skills</u></h2></header>
 							<ul>
-								<li>Highly proficent in Java and SQL programming</li>
-								<li>Proficient in HTML/CSS, JavaScript, Python, C++, and C programming</li>
+								<li>Highly proficient in HTML/CSS, JavaScript, Java, and SQL programming</li>
+								<li>Proficient in Python, C++, and C programming</li>
 								<li>Proficient in Microsoft Office Suite (Excel, Access, Word, PowerPoint, Publisher), Microsoft Visio, Microsoft SharePoint, Microsoft PowerApps</li>
 								<li>Proficient in Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Adobe Animate</li>
 								<li>Proficient in Linux/UNIX operating systems</li>

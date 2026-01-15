@@ -294,7 +294,7 @@ function About() {
 									<li>Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
 									<li>Schedule members to manage the system for daily prayers based on their availability</li>
 									<li>Maintain inventory of equipment, keeping track of who has requested what equipment</li>
-									<li>•	Led a comprehensive AV modernization initiative, evaluating and procuring projectors, mounting systems, screens, and cabling to establish a new presentation standard and significantly enhance the viewing experience</li>
+									<li>Led a comprehensive AV modernization initiative, evaluating and procuring projectors, mounting systems, screens, and cabling to establish a new presentation standard and significantly enhance the viewing experience</li>
 								</ul>
 							</section>
 

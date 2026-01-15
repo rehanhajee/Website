@@ -32,9 +32,37 @@ li>a {
 	font-weight: bold;
 }
 
-section>section {
+section>section, .szh-accordion__item>.szh-accordion__heading.szh-accordion__item h3, .szh-accordion__item h4, .szh-accordion__item h5 {
 	padding-left: 40px;
 }
+
+.szh-accordion__item-btn {
+	border: none;
+	background-color: inherit;
+	outline: none;
+	padding: 0;
+	--Paper-shadow:0;
+}
+
+.MuiAccordion, .MuiPaper-root, .css-1808mag-MuiPaper-root-MuiAccordion-root {
+	background-color: inherit;
+}
+
+h3>.chevron {
+	height: 40px;
+	padding-right: 5px;
+	transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+h4>.chevron {
+	height: 30px;
+	padding-right: 5px;
+	transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.szh-accordion__item--expanded .chevron, .Mui-expanded .chevron {
+	transform: rotate(180deg);
+  }
 
 .centre {
 	padding-top: 0%;

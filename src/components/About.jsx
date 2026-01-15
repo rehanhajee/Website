@@ -1,5 +1,9 @@
-import {Container} from 'react-bootstrap'; 
+import {Container, Image} from 'react-bootstrap'; 
 import {Helmet} from 'react-helmet';
+import {Accordion, AccordionItem } from '@szhsin/react-accordion';
+
+import chevronDown from "../images/chevron-down.svg";
+
 
 import './About.css';
 
@@ -67,11 +71,22 @@ function About() {
 						<section>
 							<header><h2 className="heading"><u>Work Experience</u></h2></header>
 							
+							{/*<Accordion allowMultiple>
+							<AccordionItem header={<header><h3><Image className="chevron" src={chevronDown}/>Canadian Armed Forces</h3></header>} initialEntered>
+									<Accordion allowMultiple>
+										<AccordionItem header={<h4><Image className="chevron" src={chevronDown}/><i>Regional Support Cadet Unit (Central)</i></h4>} initialEntered>
+										<h5><i>J1 HR Supervisor (Program Staffing), J1 Sr HR Admin (Program Staffing) </i> &nbsp; September 2023 - Present</h5>
+										</AccordionItem>
+									</Accordion>
+								</AccordionItem>
+							</Accordion>*/}
+							
+							
 							<section>
 								<header><h3>Canadian Armed Forces</h3></header>
 								<section>
 									<h4><i>Regional Support Cadet Unit (Central)</i></h4>
-									<h5><i>J1 HR Supervisor (Program Staffing), J1 Sr HR Admin (Program Staffing) </i> &nbsp; September 2023 - Present</h5>
+									<h5><i>J1 Program Staffing Supervisor, J1 Sr HR Admin (Program Staffing) </i> &nbsp; September 2023 - Present</h5>
 									<ul>
 										<li>Supervise the performance and efficiency of the HR Specialist (CTC Staffing) Clerks</li>
 										<li>Manage Civilian Instructor and Civilian Volunteer files for the Region</li>
@@ -274,11 +289,12 @@ function About() {
 								<h3>Willowdale Jamatkhana</h3>
 								<h5><i>Audio/Visual Team Member, Team Lead (2015 – Present)</i> &nbsp; July 2007 - Present</h5>
 								<ul>
-									<li>Manage a team of 15 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. New Year’s event for over 1,000 guests)</li>
+									<li>Manage a team of 15 volunteers to set up, operate, troubleshoot, and wrap up audio/visual equipment for events (e.g. video showings for over 1,500 guests)</li>
 									<li>Set up and wrap up microphones, projectors, speakers, etc. in an organized fashion for events</li>
 									<li>Operate the sound system for the entire building and troubleshoot any technical issues on the spot</li>
 									<li>Schedule members to manage the system for daily prayers based on their availability</li>
 									<li>Maintain inventory of equipment, keeping track of who has requested what equipment</li>
+									<li>•	Led a comprehensive AV modernization initiative, evaluating and procuring projectors, mounting systems, screens, and cabling to establish a new presentation standard and significantly enhance the viewing experience</li>
 								</ul>
 							</section>
 
@@ -329,7 +345,8 @@ function About() {
 						<section>
 							<header><h2 className="heading"><u>Awards and Qualifcations</u></h2></header>
 							<ul>
-								<li>First Aid level 'C' with AED training (2022)</li>
+								<li>First Aid level 'C' with AED training (2025)</li>
+								<li>Duke of Edinburgh Gold Level (2023)</li>
 								<li>Workplace Hazardous Materials Information System (WHMIS) 2015 Orientation (2022)</li>
 								<li>Psychological First Aid - Self-Care (2021)</li>
 								<li>Psychological First Aid - Caring for Others (2021)</li>

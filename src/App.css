@@ -35,6 +35,15 @@ a {
 	text-align: center;
 }
 
+button, input[type=button] {
+  outline: 0 !important;
+  border: 0;
+}
+
+button::-moz-focus-inner, input[type=button]::-moz-focus-inner {
+  border: 0;
+}
+
 #tsparticles {
   position: fixed;
   height: 100%;

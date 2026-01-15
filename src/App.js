@@ -42,7 +42,7 @@ function App() {
                     <Route path='/Programming' element={<Programming/>}/>
                     <Route path='/Contact' element={<Contact/>}/>
                     <Route path='/Media' element={<Media/>}/>
-                    <Route path='' element={<Error/>}/>
+                    <Route path='*' element={<Error/>}/>
                 </Routes>
                 <Footer />
             </BrowserRouter>
